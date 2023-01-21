@@ -7,9 +7,9 @@
 }
 
 body {
+    color: black;
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: black;
 }
 
 /* Heading - logo and navigation */
@@ -102,7 +102,7 @@ h1 {
     padding-top: 30px;
 }
 
-.services h2 {
+.services > h2 {
     font-family: Open Sans, sans-serif; 
 }
 
@@ -111,3 +111,20 @@ h1 {
 }
 
 /* Footer section */
+
+footer {
+    background-color: gray;
+    height: 80px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links > li {
+    display: inline;
+}
+ 
+.footer-links i {
+    font-size: 250%;
+}
