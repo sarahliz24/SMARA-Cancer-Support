@@ -9,15 +9,48 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color: black;
 }
 
-/* Heading */
+/* Heading - logo and navigation */
 
 h1 {
     font-family: Open Sans, sans-serif;    
+    color: black;
 }
 
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 50px;
+}
+
+#menu {
+    font-size: 120%;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu, #logo {
+    line-height: 80px;
+}
+
+#menu a:hover {
+   color: darkred;
+   text-decoration: underline;
+}
+
+.active {
+    color: darkred;
+    text-decoration: underline;  
 }
