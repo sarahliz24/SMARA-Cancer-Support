@@ -112,19 +112,22 @@ h1 {
 
 /* Footer section */
 
-footer {
+.footer {
     background-color: gray;
     height: 80px;
-}
-
-.footer-links {
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-.footer-links > li {
-    display: inline;
+.footer ul {
+    display: flex;
+    font-size: 250%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    margin: auto 30%;
 }
  
-.footer-links i {
-    font-size: 250%;
-}
