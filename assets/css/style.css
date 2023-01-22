@@ -158,7 +158,7 @@ h1 {
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     #logo {
         margin-left: 30px;
     }
@@ -204,4 +204,69 @@ h1 {
     }
 }
 
- 
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+/* NO CHANGES NEEDED FOR THIS SIZE SCREEN?? */
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #logo {
+        /* float: none; */
+        text-align: center;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+    
+    #menu {
+        float: none;
+        font-size: 80%;
+        /* text-align: center; */
+    }
+    
+    #menu li {
+        margin: 2%;
+    }
+
+    #hero-text {
+        float: none;
+        font-size: 100%;
+        text-align: center; 
+        /* margin-right: 0; */
+    
+        top: 20%;
+        left: 5%;
+    }
+    
+    #hero-text h3 {
+        font-size: 90%; 
+        float: none;
+        margin-right: 80px;
+        text-align: center;
+        margin-right: 0;
+
+        top: 120%;
+        left: 5%;
+    }
+
+    .services {
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+        /* max-height: fit-content; */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .services div {
+        /* flex: 1 0 auto; */
+
+        margin: 10px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .footer {
+        position: relative;
+    }
+}
