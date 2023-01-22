@@ -46,12 +46,12 @@ h1 {
 }
 
 #menu a:hover {
-   color: darkred;
+   color: #82263e;
    text-decoration: underline;
 }
 
 .active {
-    color: darkred;
+    color: #82263e;
     text-decoration: underline;  
 }
 
@@ -97,7 +97,7 @@ h1 {
     /* background-color: rgb(255, 0, 119); */
     /* box-sizing: border-box; */
     display: flex;
-    /* flex-basis: 25%; */
+    /* flex: 1 0 auto; */
     /* max-height: fit-content; */
     padding: 1% 5% 5% 5%; 
     width: 100%;
@@ -150,7 +150,7 @@ h1 {
 }
 
 .footer i:hover {
-    color: darkred;
+    color: #82263e;
     text-decoration: underline;
 }   
  
