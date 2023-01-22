@@ -95,11 +95,20 @@ h1 {
 
 .services {
     display: flex;
-    justify-content: space-around;
-    /* margin-left: 50px;
-    margin-right: 50px;*/
-    margin: auto 50px;
-    padding-top: 30px;
+    padding: 5%;
+    background-color: rgb(255, 0, 119);
+    width: 100%;
+    box-sizing: border-box;
+    flex-basis: 25%;
+    max-height: fit-content;
+}
+
+.services div {
+    justify-content: space-between;
+    width: 25%;
+    margin: 50px;
+    background-color: aqua;
+    clear: both;
 }
 
 .services > h2 {
@@ -114,19 +123,19 @@ h1 {
 
 .footer {
     background-color: gray;
-    height: 80px;
+    height: 60px;
     text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 12px;
 }
 
 .footer ul {
     display: flex;
     font-size: 250%;
     justify-content: space-evenly;
-    flex-direction: row;
     list-style-type: none;
     margin: auto 30%;
 }
