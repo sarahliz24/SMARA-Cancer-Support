@@ -130,4 +130,13 @@ h1 {
     list-style-type: none;
     margin: auto 30%;
 }
+
+.footer i {
+    color: black;
+}
+
+.footer i:hover {
+    color: darkred;
+    text-decoration: underline;
+}   
  
