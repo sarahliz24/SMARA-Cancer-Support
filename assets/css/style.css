@@ -70,6 +70,7 @@ h1 {
     font-family: Open Sans, sans-serif;
     font-size: 120%;   
     margin-right: 50px;
+    /* text-align: right; DOES THIS WORK BETTER THAN FLOAT RIGHT FOR RESPONSIVENESS? */
 
     top: 120px;
     right: 80px;
@@ -97,7 +98,7 @@ h1 {
     /* background-color: rgb(255, 0, 119); */
     /* box-sizing: border-box; */
     display: flex;
-    /* flex: 1 0 auto; */
+    /* justify-content: space-evenly; */
     /* max-height: fit-content; */
     padding: 1% 5% 5% 5%; 
     width: 100%;
@@ -105,8 +106,8 @@ h1 {
 
 .services div {
     /* background-color: aqua; */
-    clear: both;
-    justify-content: space-between;
+    /* clear: both; */
+    /* flex: 1 0 auto; */
     line-height: 1.3;
     margin: 40px;
     text-align: center;
@@ -153,4 +154,54 @@ h1 {
     color: #82263e;
     text-decoration: underline;
 }   
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #logo {
+        margin-left: 30px;
+    }
+    
+    #menu {
+        font-size: 100%;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    #menu, #logo {
+        line-height: 50px;
+    }
+
+    #hero-image {
+        background: url(../images/hero-image-medium.jpg) no-repeat center center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #hero-text {
+        float: right;  
+        margin-right: 2px;
+    
+        top: 110px;
+        right: 20px;
+        left: 42%;
+        text-align: right;
+    }
+    
+    #hero-text h3 {
+        top: 110%;
+        right: 0;
+        padding-right: 0%;
+        margin-right: 0;
+    }
+
+    .services {
+        padding-left: 0;
+    }
+}
+
  
