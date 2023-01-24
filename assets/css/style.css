@@ -4,6 +4,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -164,20 +165,23 @@ h2, h3 {
 .about-us {
     background-color: #82263e;
     display: flex;
-    height: 300px;
+    height: 40vh;
+    padding-left: 50px;
+    padding-top: 30px;
     width: 100%;
 }
 
 .about-us > div {
-    
+    width: 60%;
 }
 
 .location {
     background-color: #6e8226;
     display: flex;
-    height: 300px;
+    height: 40vh;
+    padding-left: 50px;
+    padding-top: 30px;
     width: 100%;  
-    padding-top: 100px;
 }
 
 /* Media queries */
