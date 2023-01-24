@@ -19,6 +19,11 @@ h1 {
     font-family: Open Sans, sans-serif;
 }
 
+h2, h3 {
+    color: white;
+    font-family: Open Sans, sans-serif;  
+}
+
 #logo {
     float: left;
     font-size: 250%;
@@ -66,14 +71,10 @@ h1 {
 
 #hero-text {
     display: flex;
-    justify-content: flex-end;
-    color: white;
-    /* float: right; */
-    font-family: Open Sans, sans-serif;
-    font-size: 120%;   
+    font-size: 120%; 
+    justify-content: flex-end;  
     margin-right: 50px;
-    /* text-align: right; DOES THIS WORK BETTER THAN FLOAT RIGHT FOR RESPONSIVENESS? */
-
+   
     top: 120px;
     right: 80px;
 
@@ -81,8 +82,6 @@ h1 {
 }
 
 #hero-text h3 {
-    color: white;
-    font-family: Open Sans, sans-serif;
     font-size: 90%; 
     font-style: italic;
     float: right;
@@ -98,6 +97,7 @@ h1 {
 
 .services {
     /* box-sizing: border-box; */
+    color: black;
     display: flex;
     /* flex-flow: row wrap; */
     justify-content: space-evenly;
@@ -117,8 +117,8 @@ h1 {
     padding-top: 0;
 }
 
-.services > h2 {
-    font-family: Open Sans, sans-serif; 
+.services h2 {
+    color: black;
 }
 
 .services p {
@@ -164,12 +164,20 @@ h1 {
 .about-us {
     background-color: #82263e;
     display: flex;
-    height: 500px;
+    height: 300px;
     width: 100%;
 }
 
 .about-us > div {
     
+}
+
+.location {
+    background-color: #6e8226;
+    display: flex;
+    height: 300px;
+    width: 100%;  
+    padding-top: 100px;
 }
 
 /* Media queries */
