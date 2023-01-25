@@ -14,7 +14,7 @@ body {
     font-weight: 300;
 }
 
-html, body {
+/* html, body {
     height: 100%;
     margin: 0;
 }
@@ -27,7 +27,7 @@ html, body {
 .footer,
 .push {
   height: 60px;
-}
+} */
 
 /* Heading - logo and navigation */
 
@@ -178,8 +178,8 @@ h2, h3 {
     flex-wrap: wrap;
     height: 100%;
     padding-left: 70px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
     justify-content: space-evenly;
     color: white;
@@ -203,11 +203,12 @@ h2, h3 {
     padding: 5%;
 }
 
+/* Section two - Location details */
+
 .location-container {
     display: flex;
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;  
     flex-direction: row;
     flex-wrap: wrap;
@@ -234,7 +235,7 @@ h2, h3 {
 
 .map-responsive {
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom: 27%;
     position:relative;
     height:0;
 }
