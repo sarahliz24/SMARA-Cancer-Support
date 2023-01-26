@@ -54,6 +54,10 @@ h2, h3 {
     text-align: left;
 }
 
+.nav a {
+ margin-right: 5px;
+}
+
 /* Index page - Hero image section */
 
 .section-wrapper {
@@ -70,6 +74,12 @@ h2, h3 {
     overflow: hidden;
     width: 100%;
     padding: 5%;
+}
+
+.hero-image h3 {
+    font-style: italic;
+    margin-top: 3%;
+    font-size: 80%;
 }
 
 /* Index page - Services Section */
@@ -129,10 +139,21 @@ h2, h3 {
     padding: 5%;
 }
 
+/* About Page - Where Section */
+
+#location-wrapper {
+    background-color: white;
+    color: black;
+}
+
 .location-text {
     width: 100%;
     text-align: justify;
     padding: 5%;
+}
+
+.location-text h2 {
+    color: black;
 }
 
 .location-text p {
