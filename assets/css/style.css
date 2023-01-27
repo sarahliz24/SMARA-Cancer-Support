@@ -58,6 +58,10 @@ h2, h3 {
  margin-right: 5px;
 }
 
+.active {
+    color: #82263e;
+}
+
 /* Index page - Hero image section */
 
 .section-wrapper {
