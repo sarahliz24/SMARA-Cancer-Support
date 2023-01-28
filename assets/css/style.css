@@ -167,17 +167,19 @@ h2, h3 {
 }
 
 .map-responsive {
-    overflow:hidden;
-    padding-bottom: 5%;
-    position:relative;
+    overflow: hidden;
+    /* padding-bottom: 5%; */
+    position: relative;
 }
 
 .map-responsive iframe {
-    left:0;
-    top:0;
-    position: sticky;
-    float: right;
-    margin-right: 12%;
+    /* left:0;
+    top:0; */
+    /* position: sticky; */
+    /* float: right; */
+    /* margin-right: 12%; */
+    height: 300px;
+    width: 100%;
 }
 
 /* Resources page */
@@ -257,12 +259,33 @@ h2, h3 {
 
 /* Contact page  - Contact Us section*/
 
+.contact-us {
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    text-align: center;
+}
+
 .contact-us h2 {
     color: black;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
 }
 
 .contact-us h3 {
     color: black;
+}
+
+.contact-us-text {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.contact-us-text p {
+    line-height: 1.4;
+    margin-top: 2%;
 }
 
 /* Footer */
