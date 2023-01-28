@@ -79,7 +79,7 @@ h2, h3 {
     height: 400px;
     overflow: hidden;
     width: 100%;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .hero-image h3 {
@@ -168,6 +168,10 @@ h2, h3 {
     margin-top: 2%;
 }
 
+.location-text a {
+    color: black;
+}
+
 .map-responsive {
     overflow: hidden;
     /* padding-bottom: 5%; */
@@ -190,7 +194,6 @@ h2, h3 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    width: 100%;
     text-align: center;
     background-color: #82263e;
     color: white;
@@ -209,13 +212,18 @@ h2, h3 {
 
 .resources-list {
     list-style-type: circle;
-
     width: 100%;
     text-align: center;
     padding: 5%;
-
     line-height: 1.4;
-    margin-top: 2%;
+}
+
+.resources-list li {
+    margin-block: 5%;
+}
+
+.resources-list a {
+    color: white;
 }
 
 /* .resources-list a:link {
@@ -250,13 +258,13 @@ h2, h3 {
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 100%;
-    background-color: grey;
-    color: #fafafa;
+    background-color: black;
+    color: white;
 }
 
 .submit-button:hover {
     background-color: white;
-    color: grey;
+    color: black;
 }
 
 /* Contact page  - Contact Us section*/
