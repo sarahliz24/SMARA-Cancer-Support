@@ -205,6 +205,13 @@ h2, h3 {
 
 .resources-list {
     list-style-type: circle;
+
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+
+    line-height: 1.4;
+    margin-top: 2%;
 }
 
 /* .resources-list a:link {
@@ -214,7 +221,41 @@ h2, h3 {
 
 /* Contact page */
 
+.contact-form {
+    background-color: #82263e;
+    color: white;
+}
 
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 5px 20px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: black;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-inline: 50%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: grey;
+    color: #fafafa;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: grey;
+}
 /* Footer */
 
 .footer-wrapper {
