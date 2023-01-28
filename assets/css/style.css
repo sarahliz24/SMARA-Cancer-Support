@@ -8,7 +8,7 @@
 
 body {
     color: black;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -19,7 +19,7 @@ h1 {
 
 h2, h3 {
     color: white;
-    font-family: Open Sans, sans-serif;  
+    font-family: Open Sans, Arial, sans-serif;  
 }
 
 /* Header section */
@@ -143,7 +143,7 @@ h2, h3 {
     padding: 5%;
 }
 
-/* About Page - Where Section */
+/* About Page - Location Section */
 
 #location-wrapper {
     background-color: white;
@@ -158,6 +158,7 @@ h2, h3 {
 
 .location-text h2 {
     color: black;
+    justify-content: left;
 }
 
 .location-text p {
@@ -198,14 +199,15 @@ h2, h3 {
 
 .footer-wrapper ul {
     display: flex;
-    font-size: 250%;
+    font-size: 200%;
     justify-content: space-evenly;
     list-style-type: none;
-    margin: auto 30%;
+    /* margin: auto 30%; */
 }
 
 .footer-wrapper i {
     color: black;
+    margin-inline: 10px;
 }
 
 .footer-wrapper i:hover {
