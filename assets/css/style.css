@@ -123,7 +123,7 @@ h2, h3 {
 
 .about-text {
     width: 100%;
-    text-align: justify;
+    text-align: center;
     padding: 5%;
 }
 
@@ -152,7 +152,7 @@ h2, h3 {
 
 .location-text {
     width: 100%;
-    text-align: justify;
+    text-align: center;
     padding: 5%;
 }
 
@@ -182,9 +182,35 @@ h2, h3 {
 
 /* Resources page */
 
-.resources-div {
-
+.section-wrapper-resources {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #82263e;
+    color: white;
 }
+
+.resources-text {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.resources-text p {
+    line-height: 1.4;
+    margin-top: 2%;
+}
+
+.resources-list {
+    list-style-type: circle;
+}
+
+/* .resources-list a:link {
+    color: red;
+    text-decoration: solid;
+} */
 
 /* Contact page */
 
