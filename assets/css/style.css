@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -56,10 +56,12 @@ h2, h3 {
 
 .nav a {
  margin-right: 5px;
+ color: black;
 }
 
 .active {
-    color: #82263e;
+    color: gray;
+    text-decoration: none;
 }
 
 /* Index page - Hero image section */
