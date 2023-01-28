@@ -219,7 +219,7 @@ h2, h3 {
     text-decoration: solid;
 } */
 
-/* Contact page */
+/* Contact page  - Contact form section*/
 
 .contact-form {
     background-color: #82263e;
@@ -242,20 +242,29 @@ h2, h3 {
 
 .submit-button {
     margin-top: 20px;
-    margin-inline: 50%;
+    margin-bottom: 20px;
     border-radius: 5px;
     padding: 10px 15px;
-    text-align: center;
     font-size: 100%;
     background-color: grey;
     color: #fafafa;
-    display: block;
 }
 
 .submit-button:hover {
     background-color: white;
     color: grey;
 }
+
+/* Contact page  - Contact Us section*/
+
+.contact-us h2 {
+    color: black;
+}
+
+.contact-us h3 {
+    color: black;
+}
+
 /* Footer */
 
 .footer-wrapper {
