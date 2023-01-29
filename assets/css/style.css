@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -16,6 +16,10 @@ body {
 h1 {
     color: black;
 }
+
+/* h2 {
+    text-decoration: underline;
+} */
 
 h2, 
 h3 {
@@ -106,7 +110,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-bottom: 3%;
+    padding-block: 3%;
+    margin-inline: 3%;
 }
 
 .services div {
@@ -180,7 +185,7 @@ p {
     width: 100%;
 }
 
-/* Resources page */
+/* RESOURCES PAGE */
 
 .section-wrapper-resources {
     background-color: #82263e;
@@ -190,6 +195,10 @@ p {
     text-align: center;
     width: 100%;
 }
+
+/* .video-container {
+    background-color: white;
+} */
 
 .section-wrapper-resources h2 {
     padding-bottom: 3%;
@@ -202,7 +211,7 @@ p {
 .resources-list {
     line-height: 1.4;
     list-style-type: circle;
-    padding: 5%;
+    padding: 0 5% 5%;
     text-align: center;
     width: 100%;
 }
@@ -266,7 +275,7 @@ p {
     background-color: white;
     display: flex;
     /* width: 100%; */
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 
@@ -399,12 +408,15 @@ p {
     }
     
     .hero-image {
-        padding-top: 2%;
+        background: url(../images/hero-image-large.jpg) no-repeat center center;
+        padding-top: 1.5%;
+        overflow: visible;
+        background-size: cover;
     } 
     
-    .services {
+    /* .services {
         padding-bottom: 0;
-    }
+    } */
 
     .services div {
         padding-top: 2%;
