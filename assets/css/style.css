@@ -95,6 +95,7 @@ h2, h3 {
     color: black;
     /* display: flex; */
     justify-content: space-evenly;
+    padding-bottom: 3%;
 }
 
 .services div {
