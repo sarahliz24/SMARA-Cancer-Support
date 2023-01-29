@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
@@ -15,12 +15,28 @@ body {
 
 h1 {
     color: black;
+}
+
+h2, 
+h3 {
+    color: white;  
+}
+
+h1,
+h2,
+h3 {
     font-family: Open Sans, Arial, sans-serif;
 }
 
-h2, h3 {
-    color: white;
-    font-family: Open Sans, Arial, sans-serif;  
+p {
+    line-height: 1.4;
+    margin-block: 2%;
+}
+
+.text-block {
+    padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 /* Header section */
@@ -37,7 +53,7 @@ h2, h3 {
     font-size: 150%;
     /* justify-content: center; */
     /* padding: 5%; */
-    padding: 5% 5% 0% 5%;
+    padding: 5% 5% 0%;
     width: 100%;
 }
 
@@ -83,17 +99,18 @@ h2, h3 {
     width: 100%;
 }
 
-.hero-image h3 {
+/* .hero-image h3 {
     font-size: 80%;
     font-style: italic;
     margin-top: 3%;
-}
+} */
 
 /* Index page - Services Section */
 
 .services {
     color: black;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 3%;
 }
@@ -125,17 +142,16 @@ h2, h3 {
     text-align: center;
 }
 
-.about-text {
+/* .about-text {
     padding: 5%;
     text-align: center;
     width: 100%;
-}
+} */
 
-.about-text p {
-    /* justify-content: right; */
+/* .about-text p {
     line-height: 1.4;
     margin-top: 2%;
-}
+} */
 
 /* .about-text {
     width: 50%;
@@ -152,6 +168,8 @@ h2, h3 {
 #location-wrapper {
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .location-text {
@@ -165,10 +183,10 @@ h2, h3 {
     justify-content: left;
 }
 
-.location-text p {
+/* .location-text p {
     line-height: 1.4;
     margin-top: 2%;
-}
+} */
 
 .location-text a {
     color: black;
@@ -195,22 +213,30 @@ h2, h3 {
 .section-wrapper-resources {
     background-color: #82263e;
     color: white;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     text-align: center;
     width: 100%;
 }
 
-.resources-text {
+.section-wrapper-resources h2 {
+    padding-bottom: 3%;
+}
+
+.section-wrapper-resources > div {
+    padding-bottom: 0;
+}
+
+/* .resources-text {
     padding: 5%;
     text-align: center;
     width: 100%;
-}
+} */
 
-.resources-text p {
+/* .resources-text p {
     line-height: 1.4;
     margin-top: 2%;
-}
+} */
 
 .resources-list {
     line-height: 1.4;
@@ -259,8 +285,9 @@ h2, h3 {
     border-radius: 5px;
     color: white;
     font-size: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-block: 20px;
     padding: 10px 15px;
 }
 
@@ -271,7 +298,13 @@ h2, h3 {
 
 /* Contact page  - Contact Us section*/
 
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact-us {
+    background-color: white;
     display: flex;
     /* width: 100%; */
     flex-direction: column;
@@ -296,10 +329,17 @@ h2, h3 {
     width: 100%;
 }
 
-.contact-us-text p {
+.section-wrapper-contact-us {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+/* .contact-us-text p {
     line-height: 1.4;
     margin-block: 2%;
-}
+} */
 
 /* Footer */
 
@@ -335,3 +375,203 @@ h2, h3 {
     color: #82263e;
     text-decoration: underline;
 } 
+
+/* Media queries */
+
+
+/* For tablet screens sizes from 481 - 768px wide */
+
+
+/* For laptop screens sizes from 768 - 1024px wide */
+
+@media screen and (min-width: 768px) {
+    .logo {
+        font-size: 130%;
+        /* justify-content: center; */
+        /* padding: 5%; */
+        padding: 3% 3% 0%;
+    }
+    
+    .menu {
+        justify-content: center;
+        padding: 2%;
+        font-size: smaller;
+        /* display: inline-block;  */
+        /* text-align: left; */
+    }
+    
+    .hero-image {
+        padding-top: 2.5%;
+    }
+
+    .services {
+        flex-direction: row;
+    }    
+    
+    .services div {
+        padding-top: 2%;
+        width: 33%;
+    }
+
+    #about-us-img {
+        padding-top: 0;
+        width: 50%;
+    }
+
+    .map-responsive {
+        /* width: 50%; */
+        /* display: block; */
+        /* text-align: center; */
+    }
+    /* #location-wrapper {
+        flex-direction: row;
+    } */
+
+    /* .footer-wrapper {
+        
+    } */
+}
+
+/* For desktop screens sizes from 1025 - 1200px wide */
+
+@media screen and (min-width: 1025px) {
+    .logo {
+        font-size: 130%;
+        /* justify-content: center; */
+        /* padding: 5%; */
+        padding: 3% 3% 0%;
+    }
+    
+    .menu {
+        /* justify-content: center;
+        padding: 2%;
+        font-size: smaller; */
+        /* display: inline-block;  */
+        /* text-align: left; */
+    }
+    
+    .hero-image {
+        padding-top: 2%;
+    } 
+    
+    .services {
+        padding-bottom: 0;
+    }
+
+    .services div {
+        padding-top: 2%;
+        width: 33%;
+    }
+
+    .about-wrapper {
+        flex-direction: row;
+    }
+
+    .about-wrapper .text-block {
+        padding-block: 2%;
+        width: 65%;
+        /* width: 110%; */
+    }
+ 
+   /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
+    .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 35%;
+    }
+
+    #about-us-img {
+        width: 100%;
+    }
+
+    #location-wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .location-text {
+        width: 65%;
+    }
+
+    /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
+    .map-responsive {
+        /* flex-direction: row; */
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .section-wrapper-resources {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-wrapper-resources .text-block {
+            padding-top: 2%;
+            /* width: 33%; */
+            /* display: flex; */
+    }
+
+    .section-wrapper-resources p {
+        padding: 0;
+        margin: 1%;
+    } 
+
+    /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+    .video-container {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        height: 60%;
+    }
+
+    .resource-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .resources-list {
+        padding-block: 0;
+        padding-inline: 0;
+    }
+
+    .resources-list li {
+        margin-block: 3%;
+    }
+
+    .section-wrapper-contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    /* .contact-form {
+        width: 70%;
+    } */
+
+    /* .contact-us {
+        width: 30%;
+    } */
+
+/* For extra-large screens sizes from 1201px wide and up */
+
+
+
+/* @media screen and (max-width: 1200px)
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    ...
+    }
+
+    @media (min-width: 768px) and (max-width: 1023.98px) */
