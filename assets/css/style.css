@@ -1,8 +1,8 @@
 * {
     border: none;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     /* border: 1px solid red; */
 }
 
@@ -10,11 +10,12 @@ body {
     color: black;
     font-family: Montserrat, Arial, sans-serif;
     font-weight: 300;
+    letter-spacing: 2;
 }
 
 h1 {
     color: black;
-    font-family: Open Sans, sans-serif;
+    font-family: Open Sans, Arial, sans-serif;
 }
 
 h2, h3 {
@@ -27,37 +28,37 @@ h2, h3 {
 .header-wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-inline: auto;
     text-align: center;
+    width: 100%;
 }
 
 .logo {
-    width: 100%;
     font-size: 150%;
     /* justify-content: center; */
     /* padding: 5%; */
     padding: 5% 5% 0% 5%;
+    width: 100%;
 }
 
 .menu {
-    width: 100%;
     justify-content: center;
     padding: 5%;
+    width: 100%;
     /* display: inline-block; 
     text-align: left; */
 }
 
 .menu li {
+    display: inline-block;
     list-style-type: none;
-    /* margin-right: 50px; */
-    display: inline-block; 
+    /* margin-right: 50px; */ 
     text-align: left;
 }
 
 .nav a {
- margin-right: 5px;
- color: black;
+    color: black;
+    margin-right: 5px;
 }
 
 .active {
@@ -69,24 +70,23 @@ h2, h3 {
 
 .section-wrapper {
     display: flex;
-    width: 100%;
     flex-direction: column;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .hero-image {
     background: url(../images/hero-image-medium.jpg) no-repeat center center;
     height: 400px;
     overflow: hidden;
-    width: 100%;
     padding: 4.5%;
+    width: 100%;
 }
 
 .hero-image h3 {
+    font-size: 80%;
     font-style: italic;
     margin-top: 3%;
-    font-size: 80%;
 }
 
 /* Index page - Services Section */
@@ -100,8 +100,8 @@ h2, h3 {
 .services div {
     line-height: 1.3;
     margin: 10px;
-    text-align: center;
     padding-top: 0;
+    text-align: center;
 }
 
 .services h2 {
@@ -115,19 +115,19 @@ h2, h3 {
 /* About Page - Who Section */
 
 .about-wrapper {
+    background-color: #82263e;
+    color: white;
     display: flex;
     /* width: 90%; */
     flex-direction: column;
-    text-align: center;
-    background-color: #82263e;
-    color: white;
     justify-content: center;
+    text-align: center;
 }
 
 .about-text {
-    width: 100%;
-    text-align: center;
     padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .about-text p {
@@ -154,9 +154,9 @@ h2, h3 {
 }
 
 .location-text {
-    width: 100%;
-    text-align: center;
     padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .location-text h2 {
@@ -192,18 +192,18 @@ h2, h3 {
 /* Resources page */
 
 .section-wrapper-resources {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
     background-color: #82263e;
     color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
 
 .resources-text {
-    width: 100%;
-    text-align: center;
     padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .resources-text p {
@@ -212,11 +212,11 @@ h2, h3 {
 }
 
 .resources-list {
-    list-style-type: circle;
-    width: 100%;
-    text-align: center;
-    padding: 5%;
     line-height: 1.4;
+    list-style-type: circle;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .resources-list li {
@@ -241,12 +241,12 @@ h2, h3 {
 
 .text-input {
     background: white;
-    color: #fafafa;
-    width: 90%;
-    height: 25px;
-    margin: 5px 5px 20px 0px;
     border: 1px solid grey;
     border-radius: 5px;
+    color: #fafafa;
+    height: 25px;
+    margin: 5px 5px 20px 0px;
+    width: 90%;
 }
 
 .text-input:hover {
@@ -254,13 +254,13 @@ h2, h3 {
 }
 
 .submit-button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
     padding: 10px 15px;
-    font-size: 100%;
-    background-color: black;
-    color: white;
 }
 
 .submit-button:hover {
@@ -279,9 +279,9 @@ h2, h3 {
 
 .contact-us h2 {
     color: black;
-    width: 100%;
-    text-align: center;
     padding: 0 5% 3% 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .contact-us h3 {
@@ -290,9 +290,9 @@ h2, h3 {
 }
 
 .contact-us-text {
-    width: 100%;
-    text-align: center;
     padding: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .contact-us-text p {
@@ -303,12 +303,12 @@ h2, h3 {
 /* Footer */
 
 .footer-wrapper {
-    display: flex;
     background-color: gray;
+    display: flex;
     height: 60px;
+    justify-content: space-evenly;
     text-align: center;
     /* position: fixed; */
-    justify-content: space-evenly;
     width: 100%;
    
     left: 0;
