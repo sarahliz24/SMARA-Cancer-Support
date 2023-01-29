@@ -10,7 +10,7 @@ body {
     color: black;
     font-family: Montserrat, Arial, sans-serif;
     font-weight: 300;
-    letter-spacing: 2;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -99,12 +99,6 @@ p {
     width: 100%;
 }
 
-/* .hero-image h3 {
-    font-size: 80%;
-    font-style: italic;
-    margin-top: 3%;
-} */
-
 /* Index page - Services Section */
 
 .services {
@@ -142,22 +136,6 @@ p {
     text-align: center;
 }
 
-/* .about-text {
-    padding: 5%;
-    text-align: center;
-    width: 100%;
-} */
-
-/* .about-text p {
-    line-height: 1.4;
-    margin-top: 2%;
-} */
-
-/* .about-text {
-    width: 50%;
-    text-align: justify;
-} */
-
 #about-us-img {
     width: 90%;
     padding: 5%;
@@ -183,18 +161,12 @@ p {
     justify-content: left;
 }
 
-/* .location-text p {
-    line-height: 1.4;
-    margin-top: 2%;
-} */
-
 .location-text a {
     color: black;
 }
 
 .map-responsive {
     overflow: hidden;
-    /* padding-bottom: 5%; */
     position: relative;
 }
 
@@ -226,17 +198,6 @@ p {
 .section-wrapper-resources > div {
     padding-bottom: 0;
 }
-
-/* .resources-text {
-    padding: 5%;
-    text-align: center;
-    width: 100%;
-} */
-
-/* .resources-text p {
-    line-height: 1.4;
-    margin-top: 2%;
-} */
 
 .resources-list {
     line-height: 1.4;
@@ -285,8 +246,6 @@ p {
     border-radius: 5px;
     color: white;
     font-size: 100%;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
     margin-block: 20px;
     padding: 10px 15px;
 }
@@ -336,10 +295,6 @@ p {
     text-align: center;
     width: 100%;
 }
-/* .contact-us-text p {
-    line-height: 1.4;
-    margin-block: 2%;
-} */
 
 /* Footer */
 
@@ -423,13 +378,6 @@ p {
         /* display: block; */
         /* text-align: center; */
     }
-    /* #location-wrapper {
-        flex-direction: row;
-    } */
-
-    /* .footer-wrapper {
-        
-    } */
 }
 
 /* For desktop screens sizes from 1025 - 1200px wide */
@@ -555,7 +503,7 @@ p {
         flex-direction: column;
         width: 100%
     }
-
+}
     /* .contact-form {
         width: 70%;
     } */
@@ -574,4 +522,4 @@ p {
     ...
     }
 
-    @media (min-width: 768px) and (max-width: 1023.98px) */
+    /* @media (min-width: 768px) and (max-width: 1023.98px)  */
