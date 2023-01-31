@@ -15,17 +15,13 @@ body {
 
 h1 {
     color: black;
+    font-family: Open Sans, Arial, sans-serif;
 }
 
 h2, 
 h3 {
-    color: white;  
-}
-
-h1,
-h2,
-h3 {
-    font-family: Open Sans, Arial, sans-serif;
+    color: white; 
+    font-family: Open Sans, Arial, sans-serif; 
 }
 
 p {
@@ -51,7 +47,7 @@ p {
 
 .logo {
     font-size: 150%;
-    padding: 5% 5% 0%;
+    padding: 5% 5% 0;
     width: 100%;
 }
 
@@ -89,11 +85,11 @@ p {
 /* brightness filter changes contrast with lighter background image compared to white text for accessability */
 .hero-image {
     background: url(../images/hero-image-medium2.jpg) no-repeat center center;
+    filter: brightness(95%);
     height: 400px;
     overflow: hidden;
     padding: 4.5%;
     width: 100%;
-    filter: brightness(95%);
 }
 
 /* INDEX PAGE - Services Section */
@@ -103,8 +99,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-block: 3%;
     margin-inline: 3%;
+    padding-block: 3%;
 }
 
 .services div {
@@ -134,8 +130,8 @@ p {
 }
 
 #about-us-img {
-    width: 90%;
     padding: 0 5% 5%;
+    width: 90%;
 }
 
 /* ABOUT PAGE - Location Section */
@@ -198,7 +194,7 @@ p {
 
 .resources-list {
     line-height: 1.4;
-    list-style-type: circle;
+    list-style-type: none;
     padding: 0 5% 5%;
     text-align: center;
     width: 100%;
@@ -220,16 +216,16 @@ p {
 /* CONTACT PAGE  - Contact form section*/
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
     background-color: #8b1933;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .form {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .text-input {
@@ -237,7 +233,7 @@ p {
     border: 2px solid grey;
     border-radius: 5px;
     height: 25px;
-    margin: 5px 5px 20px 0px;
+    margin: 5px 5px 20px 0;
     width: 90%;
 }
 
@@ -304,17 +300,15 @@ p {
 
 .footer-wrapper {
     background-color: gray;
+    bottom: 0;
     display: flex;
     height: 60px;
     justify-content: space-evenly;
+    left: 0;
+    padding-top: 12px;
     text-align: center;
     /* position: fixed; */
     width: 100%;
-   
-    left: 0;
-    bottom: 0;
-
-    padding-top: 12px;
 }
 
 .footer-wrapper ul {
@@ -331,7 +325,7 @@ p {
 
 .footer-wrapper i:hover {
     color: #8b1933;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 } 
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
@@ -344,17 +338,22 @@ p {
 @media screen and (min-width: 768px) {
     .logo {
         font-size: 130%;
-        padding: 3% 3% 0%;
+        padding: 3% 3% 0;
     }
     
     .menu {
+        font-size: smaller;
         justify-content: center;
         padding: 2%;
-        font-size: smaller;
     }
     
     .hero-image {
         padding-top: 2.5%;
+    }
+
+    /* Moves hero text down for better layout on larger screen */
+    .hero-text {
+        padding-top: 2%;
     }
 
     .services {
@@ -374,23 +373,23 @@ p {
      /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     .video-container {
         display: flex;
-        position: relative;
+        height: 60%;
+        margin-inline: 50px;
         overflow: hidden;
         /* width: 100%; */
         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-        height: 60%;
-        margin-inline: 50px;
+        position: relative;
     }
 
     .resource-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
         align-items: center;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
     }
 }
 
@@ -399,7 +398,7 @@ p {
 @media screen and (min-width: 1025px) {
     .logo {
         font-size: 130%;
-        padding: 3% 3% 0%;
+        padding: 3% 3% 0;
     }
     
     /* Cropped image so that hero text does not overlay with fingers - for high contrast */
@@ -410,6 +409,11 @@ p {
         background-size: cover;
     } 
     
+     /* Moves hero text down for better layout on larger screen & avoids overlap with image*/
+     .hero-text {
+        padding-top: 1%;
+    }
+
     .services div {
         padding-top: 2%;
         width: 33%;
@@ -426,9 +430,9 @@ p {
  
    /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
     .about-image {
+        align-items: center;
         display: flex;
         justify-content: center;
-        align-items: center;
         overflow: hidden;
         width: 35%;
     }
@@ -448,11 +452,11 @@ p {
 
     /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
     .map-responsive {
-        width: 35%;
+        align-items: center;
         display: flex;
         justify-content: center;
-        align-items: center;
         overflow: hidden;
+        width: 35%;
     }
 
     /*  Padding left stops image touching top of section */
@@ -477,23 +481,23 @@ p {
     /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     .video-container {
         display: flex;
-        position: relative;
-        overflow: hidden;
-        width: 90%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
         height: 60%;
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        position: relative;
         margin-inline: 50px;
+        width: 90%;
     }
 
     .resource-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
         align-items: center;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
     }
 
     .resources-list {
@@ -513,10 +517,6 @@ p {
     }
 
     .section-wrapper-contact-us {
-        /* background-color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: center; */
         align-self: center;
         width: 65%;
       }
@@ -535,11 +535,3 @@ p {
         padding-left: 30px;
     }
 }
-
-/* @media screen and (max-width: 1200px)
-
-@media only screen and (min-width: 768px) and (max-width: 959px){
-    ...
-    }
-
-    /* @media (min-width: 768px) and (max-width: 1023.98px)  */
