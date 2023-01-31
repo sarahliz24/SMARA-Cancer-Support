@@ -290,7 +290,7 @@ p {
     background-color: white;
     display: flex;
     /* width: 100%; */
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -316,6 +316,7 @@ p {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding-block: 5%;
     text-align: center;
     width: 100%;
 }
@@ -529,11 +530,28 @@ p {
         margin-block: 3%;
     }
 
-    .section-wrapper-contact {
+    .contact-us {
+        background-color: white;
+        display: flex;
+        /* width: 100%; */
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+
+    .section-wrapper-contact-us {
+        /* background-color: white;
         display: flex;
         flex-direction: column;
-        width: 100%
-    }
+        text-align: center; */
+        align-self: center;
+        width: 65%;
+      }
+
+    /* .section-wrapper-contact-us {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } */
 }
     /* .contact-form {
         width: 70%;
