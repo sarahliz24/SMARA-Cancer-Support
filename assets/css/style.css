@@ -226,15 +226,26 @@ p {
 /* Contact page  - Contact form section*/
 
 .contact-form {
+    display: flex;
+    flex-direction: column;
     background-color: #8b1933;
     color: white;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-inline: 30px; */
+    /* align-items: center; */
+}
+
 .text-input {
-    /* background: white; */
-    border: 1px solid grey;
+    background: white;
+    border: 2px solid grey;
     border-radius: 5px;
-    color: #fafafa;
+    /* color: #fafafa; */
     height: 25px;
     margin: 5px 5px 20px 0px;
     width: 90%;
@@ -243,6 +254,16 @@ p {
 .text-input:hover {
     border-color: black;
 }
+
+/* #general-enquiry {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .radio {
+    display: flex;
+    flex-direction: column;
+} */
 
 .submit-button {
     background-color: black;
