@@ -153,7 +153,8 @@ Testing on different size screens using both firefox and chrome dev tools
 	- code for iframe taken from: https://blog.duda.co/responsive-google-maps-for-your-website
 	 - code for sticky footer taken from: https://css-tricks.com/couple-takes-sticky-footer/ (option one used) - 25/1 - code removed
 	- how to add video via youtube https://www.w3schools.com/html/html_youtube.asp
-
+    - dropshadow effect on hero text https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow 
+    
 ### Content - eg content for this site was written by ME, some was taken from Facebook SMARA page
 	- ?need to reference love running for aria labels and other footer set-up?
 	- fixed footer code from https://www.w3schools.com/howto/howto_css_fixed_footer.asp 22/1/23

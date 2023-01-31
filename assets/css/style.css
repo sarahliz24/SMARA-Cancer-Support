@@ -95,12 +95,14 @@ p {
     width: 100%;
 }
 
+/* brightness filter changes contrast with lighter background image compared to white text for accessability */
 .hero-image {
-    background: url(../images/hero-image-medium.jpg) no-repeat center center;
+    background: url(../images/hero-image-medium2.jpg) no-repeat center center;
     height: 400px;
     overflow: hidden;
     padding: 4.5%;
     width: 100%;
+    filter: brightness(95%);
 }
 
 /* Index page - Services Section */
@@ -132,7 +134,7 @@ p {
 /* About Page - Who Section */
 
 .about-wrapper {
-    background-color: #82263e;
+    background-color: #8b1933;
     color: white;
     display: flex;
     /* width: 90%; */
@@ -143,7 +145,7 @@ p {
 
 #about-us-img {
     width: 90%;
-    padding: 5%;
+    padding: 0 5% 5%;
 }
 
 /* About Page - Location Section */
@@ -188,7 +190,7 @@ p {
 /* RESOURCES PAGE */
 
 .section-wrapper-resources {
-    background-color: #82263e;
+    background-color: #8b1933;
     color: white;
     /* display: flex;
     flex-direction: column; */
@@ -232,7 +234,7 @@ p {
 /* Contact page  - Contact form section*/
 
 .contact-form {
-    background-color: #82263e;
+    background-color: #8b1933;
     color: white;
 }
 
@@ -336,7 +338,7 @@ p {
 }
 
 .footer-wrapper i:hover {
-    color: #82263e;
+    color: #8b1933;
     text-decoration: underline;
 } 
 
@@ -407,8 +409,9 @@ p {
         /* text-align: left; */
     }
     
+    /* cropped image so that hero text does not overlay with fingers - for high contrast */
     .hero-image {
-        background: url(../images/hero-image-large.jpg) no-repeat center center;
+        background: url(../images/hero-image-cropped3.jpg) no-repeat center center;
         padding-top: 1.5%;
         overflow: visible;
         background-size: cover;
@@ -443,6 +446,7 @@ p {
     }
 
     #about-us-img {
+        padding-left: 0;
         width: 100%;
     }
 
@@ -526,6 +530,15 @@ p {
 
 /* For extra-large screens sizes from 1201px wide and up */
 
+/*  Padding top stops image touching top of section */
+#about-us-img {
+    padding-top: 30px;
+}
+
+/*  Padding left stops image touching left of section */
+.map-responsive iframe {
+    padding-left: 30px;
+}
 
 
 /* @media screen and (max-width: 1200px)
