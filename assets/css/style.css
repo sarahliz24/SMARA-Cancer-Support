@@ -234,7 +234,7 @@ p {
     border-radius: 5px;
     height: 25px;
     margin: 5px 5px 20px 0;
-    width: 90%;
+    width: 70%;
 }
 
 .text-input:hover {
@@ -246,7 +246,7 @@ p {
     border-radius: 5px;
     color: white;
     font-size: 100%;
-    margin-block: 20px;
+    margin-block: 40px;
     padding: 10px 15px;
 }
 
@@ -263,7 +263,7 @@ p {
 }
 
 .contact-us {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -271,42 +271,44 @@ p {
 
 .contact-us h2 {
     color: black;
-    padding: 0 5% 3% 5%;
-    text-align: center;
-    width: 100%;
+    padding: 0 5% 5% 5%;
+    /* text-align: center; */
+    /* width: 100%; */
 }
 
 .contact-us h3 {
     color: black;
     font-size: 90%;
+    margin-top: 2%;
 }
 
 .contact-us-text {
     padding: 5%;
     text-align: center;
-    width: 100%;
+    margin-top: 20px;
+    /* width: 100%; */
 }
 
 .section-wrapper-contact-us {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     padding-block: 5%;
-    text-align: center;
-    width: 100%;
+    /* text-align: center; */
+    /* width: 100%; */
 }
 
 /* FOOTER */
 
 .footer-wrapper {
     background-color: gray;
-    bottom: 0;
+    /* bottom: 0; */
     display: flex;
     height: 60px;
     justify-content: space-evenly;
-    left: 0;
+    /* left: 0; */
     padding-top: 12px;
-    text-align: center;
+    /* text-align: center; */
     /* position: fixed; */
     width: 100%;
 }
@@ -330,28 +332,31 @@ p {
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 
-/* For tablet screens sizes from 481 - 768px wide */
+/* FOR SMALL/TABLET SCREEN SIZES from 481 - 768px wide */
 /* Mobile first design used therefore this section not needed */
 
-/* For laptop screens sizes from 768 - 1024px wide */
+/* FOR MEDIUM/LAPTOP SCREEN SIZES from 768 - 1024px wide */
 
 @media screen and (min-width: 768px) {
+    /* Adjusts logo for better layout on medium screen */
     .logo {
         font-size: 130%;
         padding: 3% 3% 0;
     }
     
+    /* Adjusts nav menu for better layout on medium screen */
     .menu {
         font-size: smaller;
-        justify-content: center;
+        /* justify-content: center; */
         padding: 2%;
     }
-    
+
+    /* Moves hero text for better layout on larger screen */
     .hero-image {
         padding-top: 2.5%;
     }
 
-    /* Moves hero text down for better layout on larger screen */
+    /* Moves hero text for better layout on larger screen */
     .hero-text {
         padding-top: 2%;
     }
@@ -408,7 +413,7 @@ p {
         /* background-color: white;
         display: flex;
         flex-direction: column; */
-        padding-block: 2%;
+        /* padding-block: 2%; */
         /* text-align: center;
         width: 100%; */
     }
@@ -416,9 +421,13 @@ p {
     .section-wrapper-contact-us > p {
         margin-top: 1%;
     }
+
+    .text-input {
+        width: 40%;
+    }
 }
 
-/* For desktop screens sizes from 1025 - 1200px wide */
+/* FOR DESKTOP SCREEN SIZES from 1025 - 1200px wide */
 
 @media screen and (min-width: 1025px) {
     
@@ -570,7 +579,8 @@ p {
       }
 }
 
-/* For extra-large screens sizes from 1201px wide and up */
+/* FOR EXTRA-LARGE SCREEN SIZES from 1201px wide and up */
+
 @media screen and (min-width: 1201px) {
 
     /*  Padding stops image touching top of section */
