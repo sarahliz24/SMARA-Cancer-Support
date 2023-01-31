@@ -237,6 +237,10 @@ p {
     width: 70%;
 }
 
+.contact-form .text-input {
+    margin-top: 0;
+}
+
 .text-input:hover {
     border-color: black;
 }
