@@ -439,15 +439,18 @@ p {
         width: 33%;
     }
 
+    /*  Set containers into a row for improved layout at larger screen size */
     .about-wrapper {
         flex-direction: row;
     }
 
+    /*  Controls size & width of about us text container - consistent with location section below it */
     .about-wrapper .text-block {
         padding-block: 2%;
         width: 65%;
     }
  
+     /*  Sets size & position of image at larger screen size for improved layout */
    /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
     .about-image {
         align-items: center;
@@ -457,19 +460,23 @@ p {
         width: 35%;
     }
 
+    /*  Sets size & position of image at larger screen size for improved layout - additional settings to stackoverflow code */
     #about-us-img {
         padding-left: 0;
         width: 100%;
     }
 
+    /*  Set containers into a row, and reverses the order for improved layout at larger screen size */
     #location-wrapper {
         flex-direction: row-reverse;
     }
 
+    /*  Controls width of location text container - consistent with map section on contact page */
     .location-text {
         width: 65%;
     }
 
+    /*  Sets map size & position within container */
     /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
     .map-responsive {
         align-items: center;
@@ -484,20 +491,23 @@ p {
         padding-left: 30px;
     }
 
+    /*  Controls flex column display */
     .section-wrapper-resources {
         display: flex;
         flex-direction: column;
     }
 
+ /*  Reduces spacing around resources section, above video, for larger screen viewing */
     .section-wrapper-resources .text-block {
         padding-top: 2%;
     }
 
-    .section-wrapper-resources p {
+    /* .section-wrapper-resources > p {
         padding: 0;
         margin: 1%;
-    } 
+    }  */
 
+    /*  Allows video resizing for larger screen */
     /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     .video-container {
         display: flex;
@@ -510,32 +520,42 @@ p {
     }
 
     .resource-video {
-        align-items: center;
-        bottom: 0;
+        /* align-items: center; */
+        /* bottom: 0;
         height: 100%;
         left: 0;
         position: absolute;
         right: 0;
         top: 0;
-        width: 100%;
+        width: 100%; */
     }
 
+    /*  Reduces spacing around resources list for larger screen viewing */
     .resources-list {
         padding-block: 0;
         padding-inline: 0;
     }
 
+    /*  Reduces spacing around resources list for larger screen viewing */
     .resources-list li {
         margin-block: 3%;
     }
 
-    .contact-us {
-        background-color: white;
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: center;
+    /*  Reduces size of form input boxes for improved layout at larger screen width */
+    .form {
+        width: 50%;
+        margin-inline: auto;
     }
 
+    /*  Changes 2 parts to contact-us section to dsiplay as a row for larger screen  */
+    .contact-us {
+        /* background-color: white;
+        display: flex; */
+        flex-direction: row-reverse;
+        /* text-align: center; */
+    }
+
+    /*  Sets contact-us section to same size as similar location section on about page */
     .section-wrapper-contact-us {
         align-self: center;
         width: 65%;
