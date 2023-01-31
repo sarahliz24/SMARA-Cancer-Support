@@ -391,6 +391,26 @@ p {
         top: 0;
         width: 100%;
     }
+
+/* Reduces visual space for larger screen size around request-contact text*/
+    .contact-us-text {
+        padding-block: 2%;
+        /* text-align: center;
+        width: 100%; */
+    }
+
+    .section-wrapper-contact-us {
+        /* background-color: white;
+        display: flex;
+        flex-direction: column; */
+        padding-block: 2%;
+        /* text-align: center;
+        width: 100%; */
+    }
+
+    .section-wrapper-contact-us > p {
+        margin-top: 1%;
+    }
 }
 
 /* For desktop screens sizes from 1025 - 1200px wide */
@@ -411,7 +431,7 @@ p {
     
      /* Moves hero text down for better layout on larger screen & avoids overlap with image*/
      .hero-text {
-        padding-top: 1%;
+        padding-top: 0%;
     }
 
     .services div {

@@ -19,16 +19,16 @@
             <nav class="nav">
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" class="active" aria-label="Go to home page">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="about.html" aria-label="Go to About page">About Us</a>
                     </li>
                     <li>
-                        <a href="resources.html">Resources</a>
+                        <a href="resources.html" aria-label="Go to Resources page">Resources</a>
                     </li>
                     <li>
-                        <a href="contact.html" class="active">Contact</a>
+                        <a href="contact.html" aria-label="Go to Contact page">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -48,7 +48,7 @@
                 <label for="email">Email Address:</label><br>
                 <input type="email" id="email" name="email_address" class="text-input" required><br>
                 <label for="phone">Phone Number:</label><br>
-                <input type="text" id="phone" name="phone_number" class="text-input" required><br>
+                <input type="tel" id="phone" name="phone_number" class="text-input" maxlength="16" required><br>
                 <p>I would like to talk about (select one):</p><br>
                 <div>
                     <input type="radio" id="general-enquiry" name="enquiry-type" value="general-enquiry" required>
