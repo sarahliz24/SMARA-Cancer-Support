@@ -17,10 +17,6 @@ h1 {
     color: black;
 }
 
-/* h2 {
-    text-decoration: underline;
-} */
-
 h2, 
 h3 {
     color: white;  
@@ -198,10 +194,6 @@ p {
     width: 100%;
 }
 
-/* .video-container {
-    background-color: white;
-} */
-
 .section-wrapper-resources h2 {
     padding-bottom: 3%;
 }
@@ -239,7 +231,7 @@ p {
 }
 
 .text-input {
-    background: white;
+    /* background: white; */
     border: 1px solid grey;
     border-radius: 5px;
     color: #fafafa;
@@ -344,17 +336,13 @@ p {
 
 /* Media queries */
 
-
 /* For tablet screens sizes from 481 - 768px wide */
-
 
 /* For laptop screens sizes from 768 - 1024px wide */
 
 @media screen and (min-width: 768px) {
     .logo {
         font-size: 130%;
-        /* justify-content: center; */
-        /* padding: 5%; */
         padding: 3% 3% 0%;
     }
     
@@ -362,8 +350,6 @@ p {
         justify-content: center;
         padding: 2%;
         font-size: smaller;
-        /* display: inline-block;  */
-        /* text-align: left; */
     }
     
     .hero-image {
@@ -384,10 +370,26 @@ p {
         width: 50%;
     }
 
-    .map-responsive {
-        /* width: 50%; */
-        /* display: block; */
-        /* text-align: center; */
+     /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+    .video-container {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        /* width: 100%; */
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        height: 60%;
+        margin-inline: 50px;
+    }
+
+    .resource-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
     }
 }
 
@@ -401,14 +403,6 @@ p {
         padding: 3% 3% 0%;
     }
     
-    .menu {
-        /* justify-content: center;
-        padding: 2%;
-        font-size: smaller; */
-        /* display: inline-block;  */
-        /* text-align: left; */
-    }
-    
     /* cropped image so that hero text does not overlay with fingers - for high contrast */
     .hero-image {
         background: url(../images/hero-image-cropped3.jpg) no-repeat center center;
@@ -417,10 +411,6 @@ p {
         background-size: cover;
     } 
     
-    /* .services {
-        padding-bottom: 0;
-    } */
-
     .services div {
         padding-top: 2%;
         width: 33%;
@@ -468,15 +458,18 @@ p {
         overflow: hidden;
     }
 
+    /*  Padding left stops image touching top of section */
+    .map-responsive iframe {
+        padding-left: 30px;
+    }
+
     .section-wrapper-resources {
         display: flex;
         flex-direction: column;
     }
 
     .section-wrapper-resources .text-block {
-            padding-top: 2%;
-            /* width: 33%; */
-            /* display: flex; */
+        padding-top: 2%;
     }
 
     .section-wrapper-resources p {
@@ -530,17 +523,18 @@ p {
     } */
 
 /* For extra-large screens sizes from 1201px wide and up */
+@media screen and (min-width: 1201px) {
 
 /*  Padding top stops image touching top of section */
-#about-us-img {
-    padding-top: 30px;
-}
+    #about-us-img {
+        padding-top: 30px;
+    }
 
 /*  Padding left stops image touching top of section */
-.map-responsive iframe {
-    padding-left: 30px;
+    .map-responsive iframe {
+        padding-left: 30px;
+    }
 }
-
 
 /* @media screen and (max-width: 1200px)
 
