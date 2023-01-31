@@ -356,20 +356,24 @@ p {
         padding-top: 2%;
     }
 
+     /*  Set containers into a row for improved layout at medium screen size */
     .services {
         flex-direction: row;
-    }    
-    
+    } 
+
+    /* Controls white space for services section for medium screen*/
     .services div {
         padding-top: 2%;
         width: 33%;
     }
 
+    /* Reduces image size for medium screen*/
     #about-us-img {
-        padding-top: 0;
+        /* padding-top: 0; */
         width: 50%;
     }
 
+    /* Controls size & postion of video on larger screen - from w3schools*/
      /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     .video-container {
         display: flex;
@@ -381,18 +385,19 @@ p {
         position: relative;
     }
 
+    /* Controls size & postion of video on larger screen*/
     .resource-video {
-        align-items: center;
+        /* align-items: center; */
         bottom: 0;
         height: 100%;
-        left: 0;
+        /* left: 0; */
         position: absolute;
-        right: 0;
-        top: 0;
+        /* right: 0;
+        top: 0; */
         width: 100%;
     }
 
-/* Reduces visual space for larger screen size around request-contact text*/
+    /* Reduces visual space for larger screen size around request-contact text*/
     .contact-us-text {
         padding-block: 2%;
         /* text-align: center;
@@ -416,12 +421,14 @@ p {
 /* For desktop screens sizes from 1025 - 1200px wide */
 
 @media screen and (min-width: 1025px) {
-    .logo {
+    
+    /* .logo {
         font-size: 130%;
         padding: 3% 3% 0;
     }
-    
-    /* Cropped image so that hero text does not overlay with fingers - for high contrast */
+     */
+
+    /* Cropped image replaces original so that hero text does not overlay with fingers - for high contrast */
     .hero-image {
         background: url(../images/hero-image-cropped3.jpg) no-repeat center center;
         padding-top: 1.5%;
@@ -434,9 +441,10 @@ p {
         padding-top: 0%;
     }
 
+    /* Reduces white space between services and hero image for improved layout at larger screen size*/
     .services div {
-        padding-top: 2%;
-        width: 33%;
+        padding-top: 0%;
+        /* width: 33%; */
     }
 
     /*  Set containers into a row for improved layout at larger screen size */
