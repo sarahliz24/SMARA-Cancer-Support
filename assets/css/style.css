@@ -14,13 +14,13 @@ body {
 
 h1 {
     color: black;
-    font-family: Open Sans, Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 h2, 
 h3 {
     color: white; 
-    font-family: Open Sans, Arial, sans-serif; 
+    font-family: "Open Sans", Arial, sans-serif; 
 }
 
 p {

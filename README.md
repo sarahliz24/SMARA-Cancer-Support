@@ -145,12 +145,25 @@ This section provides the user with a contact name, email and phone number for t
 
 ## Validator Testing
 
-The code was regualrly tested using w3c validators for HTML and CSS throughout development. 
+The code was regualrly tested using w3 validators for HTML and CSS throughout development, using these links: [W3C HTML Validator](https://validator.w3.org/#validate_by_input); [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ ) . 
 
-https://jigsaw.w3.org/css-validator/  
-https://validator.w3.org/#validate_by_input
+HTML Final testing results:
 
-Final testing results:
+<details><summary>Home Page</summary>
+    <img src="documentation/home-page-html-checker.png">
+</details>
+
+<details><summary>About Page</summary>
+    <img src="">
+</details>
+
+<details><summary>Resources Page</summary>
+    <img src="">
+</details>
+
+<details><summary>Contact Page</summary>
+    <img src="">
+</details>
 
 <!--display testing results here-->
 
@@ -167,31 +180,27 @@ Accessability testing was performed regularly throughout development using WAVE 
 
 ### Browser Compatability Testing
 
-The site was tested on the following broswers to ensure intended functionality:
+The site was successfully tested (i.e. no issues identified) on the following broswers to ensure intended functionality:
 
 * Mozilla Firefox Version 109.0 (64-bit)
 * Google Chrome Version 109.0.5414.120 (Official Build) (64-bit)
 * Microsoft Edge Version 109.0.1518.70 (Official build) (64-bit)
- 
- noted that Monsterrat does not work on ??, however Arial was a suitable secondary font
 
 ### Device Testing
 
-Manual testing was performed using the following devices:
+Manual testing was performed successfully (i.e. no issues identified) using the following devices:
 
 * Huawei P20
+* Samsung Galaxy S22 Ultra
 * Microsoft Surface Pro 7
-* Samsung Galazy S22 Ultra
-* Intel Nitro ...
-* Alice's laptop...
+* Acer desktop with HP 24 inch HD monitor
+* HP Notepad 
 
 ?findings?
 
 ### Manual Testing
 
 The following features were manually tested on all mentioned browsers and devices, and found to be functioning as expected in each test case:
-
-All pages
 
 * Navigation section
     * Clicking each navigation link takes user to the expected page
@@ -229,7 +238,6 @@ All pages
     * The map zoom function operates as expected
     * The page sections change from row to column responsively
 
-Testing on different size screens using both firefox and chrome dev tools 
 <!--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.-->
 
 ## Accessibility
@@ -245,12 +253,25 @@ Testing on different size screens using both firefox and chrome dev tools
 ## Solved bugs
 - footer jumping to middle of page for small screens - media query was set to relative position for this screen size - remmoved this, bug fixed
 - contast issue with hero text
+- During manual testing it was noted that the video was not evenly aligned left-right on large screens - this was corrected by removing the width element from the video container, then amending the margin size. 
 
 ---
 
 # Deployment
--list steps used to deploy
 
+This site was delpoyed using Github as follows:
+
+1. Enter the relevant Github repository
+2. Select **Settings** from the ribbon menu
+3. Go to **Pages** (within the **Code and Automation** section) on the left-side menu
+4. Within the **Build and deployment** section:
+    * Select **Deploy from a branch** from the **Source** drop-down menu
+5. Ensure the branch is set to **main** and choose **root** from the adjacent drop-down boxes
+6. Select **Save**
+7. Site link will be displayed in a box towards the top of the page 
+    * It can take a few minutes on initial deployment for the link to display
+
+    The site github link is here: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cancer-Support/)
 ---
 
 # CREDITS
