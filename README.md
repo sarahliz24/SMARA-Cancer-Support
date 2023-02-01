@@ -1,6 +1,6 @@
 # SMARA Cancer Support Group
 ---
-
+<img src="documentation/responsive-layout-demo.png">
 <!-- Project images go here (web, tablet, mobile) -->	
 
 <!-- Link to deployed site-->	
@@ -61,13 +61,31 @@ Kaloutie - finished cancer treatment, feeling unsure of what's next and how to c
 # DESIGN
 
 ## Colour scheme
-The colour scheme is sased on the Trinidad flag colours - red, white and black (with the use of grey as a feature).  This was chosen to give the site a local feel that would be familiar to its users and help inspire trust.
+The colour scheme is based on the Trinidad flag colours - red, white and black (with the use of grey as an additional feature).  This was chosen to give the site a local feel that would be familiar to its users and help inspire trust.
 
-## Typograhy <!--what fonts and why?-->  
+## Typograhy <!--what fonts and why?--> 
 Open Sans was selected as the primary font for headings as it is clear and easily legible - this is aided by its sans serif type.  It is important for this site to have an easily readable font as many of its user base may have trouble with literacy and it was important to avoid the font used making understanding the text difficult to understand. Montserrat was chosen as the body text as this is also a clear and easily readable font, which pairs well with Open Sans (for cohesiveness) (as reccomended by www.figma.com/google-fonts/open-sans-font-pairings/), with a seconadary default text of Arial - as this is a commonly available font which is also very legible.
 
 ## Wireframes
-<!--wireframes go here?-->
+
+discuss any significant differences to final design?
+
+ <details><summary>Home Page</summary>
+    <img src="documentation/wireframe-home.png">
+</details>
+
+<details><summary>About Page</summary>
+    <img src="documentation/wireframe-about.png">
+</details>
+
+<details><summary>Resources Page</summary>
+    <img src="documentation/wireframe-resources.png">
+</details>
+
+<details><summary>Contact Page</summary>
+    <img src="documentation/wireframe-contact.png">
+</details>
+
 ---
 
 # FEATURES
@@ -79,6 +97,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## 1. Header and Navigation Bar
 
+<details><summary>Header and Navigation</summary>
+    <img src="documentation/header-and-nav.png">
+</details>
+
 The site name, cancer ribbon, and navigation bar are present and consistent at the top of all four site pages.
 
 The cancer ribbon next to the group name quickly and easily identifies the page as relating to cancer, re-inforcing the reason the user visits the page.
@@ -89,15 +111,27 @@ The navigation menu provides links to each of the four site pages, it clearly in
 
 ## 2. Hero Image
 
+<details><summary>Hero image and text</summary>
+    <img src="documentation/hero-image-readme.png">
+</details>
+
 The hero image was selected as this shows a number of hands reaching for assistance, indicating the site's purpose (to provide assistance and support), incorporating the colours selected for the site design (increasing familiarity and trust in the site), along with the hands reflecting the multi-cultural potential user base of the group.  
 
 The text overlay on the hero image lets the user know what the basic aims of the group are and defines the catchment area for the group's users.
 
 ## 3. Services Section
 
+<details><summary>Services section</summary>
+    <img src="documentation/services-section-readme.png">
+</details>
+
 This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for and how it each could benefit the visitor.
 
 ## 4. Footer
+
+<details><summary>Footer</summary>
+    <img src="documentation/footer-readme.png">
+</details>
 
 The footer is present at the bottom of each of the four site pages.  It has icon-based links for the two social media sites that are active for the group, so that the user is aware of what social media sites are active for the group (and they can visit these and follow the sites to stay connected or get up-to-date information on group events etc), and also a link to the medical centre where the group's services are based, so the user can see the group is aligned to an established medical facility (helping to engender trust in the site).
 
@@ -108,15 +142,31 @@ The about page is split into two sections:
 a.  Who are we
  This section explains who set up the group, and who is involved in running it.  This helps the user to understand that the group is run by local people (engendering trust) and also shows that both lay people and professionals help to run it (demonstrating that the user can find both peer and professional support from the group).  A picture of some of the group volunteers <!--imaginary group members??-->, photographed in the medical facility lobby, is included, as this helps the user to visualise the group members, and understand that they appear both local (i.e. not an international organisation) and approachable looking.
 
+<details><summary>About - Who we are</summary>
+    <img src="documentation/about-whoweare-readme.png">
+</details>
+
 b. Who we serve
 This section clearly explains the catchment area for the groups users.  It defines where the group is based (i.e. a local medical facility), giving the group credibility.  It also offers advice to page visitors who reside outside of the catchment area on alternate places to seek assistance, meaning the page is of use to a visitor even if they do not fall into the relevant catchment area. A hyperlink is included to the reccomended alterante site, to assit the user to find the help they need without having to leave the site. A hyperlink is added to the medical facility mentioned within the text to allow the user to visit the centres website, opening in a new page, meaning the user does not have to leave the site to find out more about the medical centre.  A map is included in this section, showing the location of the SMARA offices (at the medical centre), allowing the user to easily visualise where on-site services are based. 
-      
+
+ <details><summary>About - Who we serve</summary>
+    <img src="documentation/about-whereweserve-readme.png">
+</details>
+
 ## 6. Resources Page
        
 The resources page has two sections:
 
+<details><summary>Video</summary>
+    <img src="documentation/resources-ptnav-readme.png">
+</details> 
+
 a. Video
 A short video explaining what patient navigation is is embedded on first section of this page.  This allows the user to quickly explore the value of patient navigation services, as this concept is often not well understood by new patients.
+
+<details><summary>Resources</summary>
+    <img src="">
+</details>
 
 b. Links to useful resources
 The second section provides a number of links to useful resources, along with a written description of why each link is considered useful.  This will aid the user by providing trusted sources for further cancer information, and also helps to establish the trustworthiness of the site (as the resources referenced are all from national or internationally recognised sites).
@@ -124,10 +174,18 @@ The second section provides a number of links to useful resources, along with a 
 ## 7. Contact Page
 	
 The contact page has two sections:
-    
+
+<details><summary>Request Contact</summary>
+    <img src="documentation/requestcontact-readme.png">
+</details>  
+
 a. Request Contact section
 This section contains a form the user can fill out to request a member of the group contact them for further information.  The inclusion of the last name is optional, which is of benefit to the user as they may not feel confident on first contact to provide their full name (increasing trust in the group and the site).  The user can enter either email or a phone number as they prefer - this gives the user the confidence to select the contact method they feel most comfortable with. The phone number section is limited to 16 characters, to minimise entry of an incorrect number, whilst also allowing for data entry in the full international dialing code format.  Radio button options at the end of the form allow the user to indicate which service they may be interested in exploring, which will help the group member making contact to be well prepared for the first contact encounter with the user and to help make the ensuing contact more relevant.
-    
+
+<details><summary>Contact Us</summary>
+    <img src="documentation/contactus-readme.png">
+</details>
+
 b. Contact Us section
 This section provides the user with a contact name, email and phone number for the group.  This provides transparency for the user, and allows the user to make contact directly if they feel more comfortable with this.  A map is also included showing the location of the group's main office (at the medical clinic), allowing the user to know where the group is located.
 
@@ -173,8 +231,11 @@ The code was regularly tested using w3c validators for HTML and CSS throughout d
 </details>
  
 
-### Lighthouse final testing results:
-* Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.
+## Lighthouse testing
+Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.
+
+### Lighthouse  final testing results:
+
 
 <details><summary>Home Page</summary>
     <img src="documentation/home-lighthouse.png">
@@ -193,24 +254,27 @@ The code was regularly tested using w3c validators for HTML and CSS throughout d
 </details>
 
 ## Accessibility testing
-* Accessibility testing was performed regularly throughout development using WAVE Web Accessibility Evaluation Tools, using this link: [WAVE Testing](https://wave.webaim.org/)
 
-    * This testing provided assistance on ensuring contrast issues were identified and resolved during development - it was found that the hands on the hero image were overlapping the hero text in some formats, and to resolve this the positioning of the text was amended, along with a re-positioning of the hero image and amending the image brightness to correct the issue
+*Accessibility testing was performed regularly throughout development using WAVE Web Accessibility Evaluation Tools, using this link: [WAVE Testing](https://wave.webaim.org/)
+
+    *This testing provided assistance on ensuring relevant issues were identified and resolved during development:
+        *It was found that the hands on the hero image were overlapping the hero text in some formats, causing a small area of low contrast for the hero text. To resolve this the positioning of the text was amended, along with a re-positioning of the hero image, and amending the overall image brightness
+        *It highlighted the need for a fieldset and legend to be added to the radio button section to increase accessibility for users
  
  <details><summary>Home Page</summary>
-    <img src="">
+    <img src="documentation/home-wavetest.png">
 </details>
 
 <details><summary>About Page</summary>
-    <img src="">
+    <img src="documentation/about-wavetest.png">
 </details>
 
 <details><summary>Resources Page</summary>
-    <img src="">
+    <img src="documentation/resources-wavetest.png">
 </details>
 
 <details><summary>Contact Page</summary>
-    <img src="">
+    <img src="documentation/contact-wavetesting.png">
 </details>
 
 
@@ -231,8 +295,6 @@ Manual testing was performed successfully (i.e. no issues identified) using the 
 * Microsoft Surface Pro 7
 * Acer desktop with HP 24 inch HD monitor
 * HP Notepad 
-
-?findings?
 
 ### Manual Testing
 
@@ -282,14 +344,15 @@ The following features were manually tested on all mentioned browsers and device
 # BUGS
 
 ## Known bugs
-- Footer not fixed - issue with division between footer and services section
-- Ipad size - issue with blank space at bottom of services section
+- Footer not fixed - issue with division between footer and map section
+- Ipad size - issue with blank space at bottom of services section in portrait mode
 - T&T Cancer Society link slow to load
+- console check warnings noted during 'inspector console' checks - related to fontawesome, and embedded maps and video and github- beyond the scope of this project to address these issues, however not noted to be impacting basic functionality of site  (some warnings only on Firefox - mention this a bit more...)
 
 ## Solved bugs
 - footer jumping to middle of page for small screens - media query was set to relative position for this screen size - remmoved this, bug fixed
 - contast issue with hero text
-- During manual testing it was noted that the video was not evenly aligned left-right on large screens - this was corrected by removing the width element from the video container, then amending the margin size. 
+- During manual testing it was noted that the video was not evenly aligned left-right on large screens - this was corrected by removing the width element from the video container, then amending the margin size
 
 ---
 
@@ -319,7 +382,7 @@ This site was delpoyed using Github as follows:
 	- how to add video via youtube https://www.w3schools.com/html/html_youtube.asp
    - how to change image brightness https://www.tutorialspoint.com/setting-the-image-brightness-using-css3
    - how to add hover text on footer icons https://sebhastian.com/html-hover-text/ 
-   
+    - for reponsive design mega picture https://ui.dev/amiresponsive
     
 ## Content
 eg content for this site was written by ME, some was taken from Facebook SMARA page
@@ -327,17 +390,29 @@ eg content for this site was written by ME, some was taken from Facebook SMARA p
 content for about section taken from... ?Pat's CV?
 	
 ## Technologies Used
--list all things used eg github, google fonts, pexels, balsamiq, font awesome ...  (?include version)  projects in git
+
+During the creation of this site I used the following technologies:
+
+* Github
+* Google fonts
+* pexels
+* balsamiq
+* font awesome
+* Youtube
 
 ## Media - list of images and links
-	images
-	-HERO IMAGE  pexels-rocketmann-team-9486905.jpg
-	-ABOUT IMAGE https://www.pexels.com/photo/group-of-women-standing-near-desk-1181438/
-	video - https://www.youtube.com/watch?v=FV_BE9hvg68 (creative commons reuse allowed)
-Google fonts - Open Sans and Montserrat
-Icons - Font Awesome 6.2.1
-Fontawesome
+* Images
+	* Hero image: from pexels.com, taken by Rocketmann_Team: pexels-rocketmann-team-9486905.jpg
+	* ABOUT IMAGE https://www.pexels.com/photo/group-of-women-standing-near-desk-1181438/
+* Video 
+    *  https://www.youtube.com/watch?v=FV_BE9hvg68 (creative commons re-use allowed)
+* Typography
+    * Google fonts - Open Sans and Montserrat
+* Icons
+    * Font Awesome 6.2.1
 
 ---
 
 # Acknowledgements
+
+Thanks to my mentor Maranatha Ilesanmi who provided me with the support and advice to get the required work done.
