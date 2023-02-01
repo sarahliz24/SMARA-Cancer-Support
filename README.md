@@ -7,6 +7,40 @@ SMARA Cancer Support Group is a site that provides an basic overview of the canc
 <!-- Link to deployed site-->	
 
 ---
+## TABLE OF CONTENTS
+
+1. [Introduction](#INTRODUCTION)
+2. [User Experiences](#user-experiences)
+    1. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Colour Scheme](#colour-scheme)
+    2. [Typography](#typograhy)
+    3. [Wireframes](#wireframes)
+4. [Current Features](#features)
+    1. [Header and Navigation Bar](#1-header-and-navigation-bar)
+    2. [Hero image](#2-hero-image)
+    3. [Services section](#3-services-section)
+    4. [Footer](#4-footer)
+    5. [About Page](#5-about-page)
+    6. [Resources Page](#6-resources-page)
+    7. [Contact Page](#7-contact-page)
+5. [Future Features](#future-features)
+6. [Testing](#testing)
+7. [Accessibility](#accessibility)
+8. [Bugs](#bugs)
+    1. [Known Bugs](#known-bugs)
+    2. [Solved Bugs](#solved-bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+    1. [Code Used](#code-used)
+    2. [Content](#content)
+    3. [Technologies Used](#technologies-used)
+    4. [Media]
+11. [Acknowledgements]
+ 
+
+
+## INTRODUCTION
 
 ## USER EXPERIENCES
 
@@ -49,19 +83,19 @@ In addition, you may also use this section to discuss plans for additional featu
 
     The navigation menu provides links to each of the four site pages, it clearly indicates which page the user is currently on, and allows the user to easily navigate around the site at all times without having to leave the page space
 
-#### 2. Hero image
+#### 2. Hero Image
 
     The hero image was selected as this shows a number of hands reaching for assistance, indicating the site's purpose (to provide assistance and support), incorporating the colours selected for the site design (increasing familiarity and trust in the site), along with the hands reflecting the multi-cultural potential user base of the group.  
 
     The text overlay on the hero image lets the user know what the basic aims of the group are and defines the catchment area for the group's users.
 
-#### 3. Group services section
+#### 3. Services Section
 
     This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for and how it each could benefit the visitor.
 
 #### 4. Footer
 
-    The footer is present at the bottom of each of the four site pages.  It has icon-based links for the two social media sites that are active for the group, so that the user is aware of what social media sites are active for the group (and they can visit these and follow the sites to stay connected or get up-to-date information on group events etc), and also a link to the medical centre where the group's services are based, so the user can see the group is aligned to an established medical facility (helping to engender trust in the site).
+The footer is present at the bottom of each of the four site pages.  It has icon-based links for the two social media sites that are active for the group, so that the user is aware of what social media sites are active for the group (and they can visit these and follow the sites to stay connected or get up-to-date information on group events etc), and also a link to the medical centre where the group's services are based, so the user can see the group is aligned to an established medical facility (helping to engender trust in the site).
 
 #### 5. About Page
 
@@ -93,7 +127,7 @@ In addition, you may also use this section to discuss plans for additional featu
     b. Contact Us section
         This section provides the user with a contact name, email and phone number for the group.  This provides transparency for the user, and allows the user to make contact directly if they feel more comfortable with this.  A map is also included showing the location of the group's main office (at the medical clinic), allowing the user to know where the group is located.
 
-### Features Left to Implement
+### Future Features
 
 1. Donate button - addition of a donate feature to help increase group funds
 
@@ -139,6 +173,7 @@ Testing on different size screens using both firefox and chrome dev tools
 
 ## Solved bugs
 - footer jumping to middle of page for small screens - media query was set to relative position for this screen size - remmoved this, bug fixed
+- contast issue with hero text
 
 ---
 
@@ -152,12 +187,14 @@ Testing on different size screens using both firefox and chrome dev tools
 ### Code used
 	- code for iframe taken from: https://blog.duda.co/responsive-google-maps-for-your-website
 	 - code for sticky footer taken from: https://css-tricks.com/couple-takes-sticky-footer/ (option one used) - 25/1 - code removed
+     - fixed footer code from https://www.w3schools.com/howto/howto_css_fixed_footer.asp 22/1/23
 	- how to add video via youtube https://www.w3schools.com/html/html_youtube.asp
-    - dropshadow effect on hero text https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow 
+   - how to change image brightness https://www.tutorialspoint.com/setting-the-image-brightness-using-css3
+   - how to add hover text on footer icons https://sebhastian.com/html-hover-text/ 
+   
     
 ### Content - eg content for this site was written by ME, some was taken from Facebook SMARA page
 	- ?need to reference love running for aria labels and other footer set-up?
-	- fixed footer code from https://www.w3schools.com/howto/howto_css_fixed_footer.asp 22/1/23
 	- content for about section taken from... ?Pat's CV?
 	
 ### Technologies Used
