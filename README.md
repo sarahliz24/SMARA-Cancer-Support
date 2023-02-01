@@ -139,19 +139,16 @@ This section provides the user with a contact name, email and phone number for t
 
 3. Information page for volunteers
 
----
 
 # Testing
 
 ## Validator Testing
 
-
-The code was regualrly tested using w3 validators for HTML and CSS throughout development, using these links:
+The code was regularly tested using w3c validators for HTML and CSS throughout development, using these links:
 [W3C HTML Validator](https://validator.w3.org/#validate_by_input); [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ )
 
 
-### HTML Final testing results:
-
+### HTML final testing results:
 
 <details><summary>Home Page</summary>
     <img src="documentation/home-page-html-checker.png">
@@ -169,16 +166,15 @@ The code was regualrly tested using w3 validators for HTML and CSS throughout de
     <img src="documentation/contact-page-html-checker.png">
 </details>
 
-
-### CSS Final testing results:
+### CSS final testing results:
 
 <details><summary>CSS Validation</summary>
     <img src="documentation/css-validation.png">
 </details>
+ 
 
-
-Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.  
-
+### Lighthouse final testing results:
+* Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.
 
 <details><summary>Home Page</summary>
     <img src="documentation/home-lighthouse.png">
@@ -196,12 +192,27 @@ Lighthouse testing was conducted at regular intervals during development, using 
     <img src="documentation/contact-lighthouse.png">
 </details>
 
+## Accessibility testing
+* Accessibility testing was performed regularly throughout development using WAVE Web Accessibility Evaluation Tools, using this link: [WAVE Testing](https://wave.webaim.org/)
 
-Accessability testing was performed regularly throughout development using WAVE testing for accessability https://wave.webaim.org/ 
+    * This testing provided assistance on ensuring contrast issues were identified and resolved during development - it was found that the hands on the hero image were overlapping the hero text in some formats, and to resolve this the positioning of the text was amended, along with a re-positioning of the hero image and amending the image brightness to correct the issue
+ 
+ <details><summary>Home Page</summary>
+    <img src="">
+</details>
 
- * This testing provided assistance on ensuring contrast issues were identified and resolved during development - it was found that the hands on the hero image were overlapping the hero text in some formats, and to resolve this the positioning of the text was amended, along with a re-positioning of the hero image and amending the image brightness to correct the issue
- .
-<!--display testing results here-->
+<details><summary>About Page</summary>
+    <img src="">
+</details>
+
+<details><summary>Resources Page</summary>
+    <img src="">
+</details>
+
+<details><summary>Contact Page</summary>
+    <img src="">
+</details>
+
 
 ### Browser Compatability Testing
 

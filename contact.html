@@ -52,14 +52,17 @@
                 <input type="tel" id="phone" name="phone_number" class="text-input" maxlength="16" required><br>
                 <p>I would like to talk about (select one):</p><br>
                 <div>
-                    <input type="radio" id="general-enquiry" name="enquiry-type" value="general-enquiry" required>
-                    <label for="general-enquiry">General enquiry</label><br>
-                    <input type="radio" id="patient-navigation" name="enquiry-type" value="patient-navigation">
-                    <label for="patient-navigation">Patient navigation</label><br>
-                    <input type="radio" id="financial-assistance" name="enquiry-type" value="financial-assistance">
-                    <label for="financial-assistance">Financial assistance</label><br>
-                    <input type="radio" id="counselling" name="enquiry-type" value="counselling">
-                    <label for="counselling">Counselling</label><br>
+                    <fieldset>
+                        <legend>I would like to talk about</legend>
+                        <input type="radio" id="general-enquiry" name="enquiry-type" value="general-enquiry" required>
+                        <label for="general-enquiry">General enquiry</label><br>
+                        <input type="radio" id="patient-navigation" name="enquiry-type" value="patient-navigation">
+                        <label for="patient-navigation">Patient navigation</label><br>
+                        <input type="radio" id="financial-assistance" name="enquiry-type" value="financial-assistance">
+                        <label for="financial-assistance">Financial assistance</label><br>
+                        <input type="radio" id="counselling" name="enquiry-type" value="counselling">
+                        <label for="counselling">Counselling</label><br>
+                    </fieldset>
                 </div>
                 <input type="submit" class="submit-button" value="Submit">
             </form>
