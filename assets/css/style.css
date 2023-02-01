@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
 }
 
 body {
@@ -83,6 +82,7 @@ p {
 }
 
 /* brightness filter changes contrast with lighter background image compared to white text for accessability contast purposes */
+/* https://www.tutorialspoint.com/setting-the-image-brightness-using-css3 */
 .hero-image {
     background: url(../images/hero-image-medium2.jpg) no-repeat center center;
     filter: brightness(95%);
@@ -125,7 +125,6 @@ p {
     color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
 }
 
@@ -164,11 +163,6 @@ p {
 }
 
 .map-responsive iframe {
-    /* left:0;
-    top:0; */
-    /* position: sticky; */
-    /* float: right; */
-    /* margin-right: 12%; */
     height: 300px;
     width: 100%;
 }
@@ -178,10 +172,7 @@ p {
 .section-wrapper-resources {
     background-color: #8b1933;
     color: white;
-    /* display: flex;
-    flex-direction: column; */
     text-align: center;
-    /* width: 100%; */
 }
 
 .section-wrapper-resources h2 {
@@ -196,8 +187,6 @@ p {
     line-height: 1.4;
     list-style-type: none;
     padding: 0 5% 5%;
-    /* text-align: center;
-    width: 100%; */
 }
 
 .resources-list li {
@@ -207,11 +196,6 @@ p {
 .resources-list a {
     color: white;
 }
-
-/* .resources-list a:link {
-    color: red;
-    text-decoration: solid;
-} */
 
 /* CONTACT PAGE  - Contact form section*/
 
@@ -267,7 +251,6 @@ p {
 }
 
 .contact-us {
-    /* background-color: white; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -276,8 +259,6 @@ p {
 .contact-us h2 {
     color: black;
     padding: 0 5% 5% 5%;
-    /* text-align: center; */
-    /* width: 100%; */
 }
 
 .contact-us h3 {
@@ -290,30 +271,22 @@ p {
     padding: 5%;
     text-align: center;
     margin-top: 20px;
-    /* width: 100%; */
 }
 
 .section-wrapper-contact-us {
-    /* background-color: white; */
     display: flex;
     flex-direction: column;
     padding-block: 5%;
-    /* text-align: center; */
-    /* width: 100%; */
 }
 
 /* FOOTER */
 
 .footer-wrapper {
     background-color: gray;
-    /* bottom: 0; */
     display: flex;
     height: 60px;
     justify-content: space-evenly;
-    /* left: 0; */
     padding-top: 12px;
-    /* text-align: center; */
-    /* position: fixed; */
     width: 100%;
 }
 
@@ -331,7 +304,6 @@ p {
 
 .footer-wrapper i:hover {
     color: #8b1933;
-    /* text-decoration: underline; */
 } 
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
@@ -351,7 +323,6 @@ p {
     /* Adjusts nav menu for better layout on medium screen */
     .menu {
         font-size: smaller;
-        /* justify-content: center; */
         padding: 2%;
     }
 
@@ -378,7 +349,6 @@ p {
 
     /* Reduces image size for medium screen*/
     #about-us-img {
-        /* padding-top: 0; */
         width: 50%;
     }
 
@@ -389,37 +359,21 @@ p {
         height: 60%;
         margin-inline: 50px;
         overflow: hidden;
-        /* width: 100%; */
         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
         position: relative;
     }
 
     /* Controls size & postion of video on larger screen*/
     .resource-video {
-        /* align-items: center; */
         bottom: 0;
         height: 100%;
-        /* left: 0; */
         position: absolute;
-        /* right: 0;
-        top: 0; */
         width: 100%;
     }
 
     /* Reduces visual space for larger screen size around request-contact text*/
     .contact-us-text {
         padding-block: 2%;
-        /* text-align: center;
-        width: 100%; */
-    }
-
-    .section-wrapper-contact-us {
-        /* background-color: white;
-        display: flex;
-        flex-direction: column; */
-        /* padding-block: 2%; */
-        /* text-align: center;
-        width: 100%; */
     }
 
     .section-wrapper-contact-us > p {
@@ -435,12 +389,6 @@ p {
 
 @media screen and (min-width: 1025px) {
     
-    /* .logo {
-        font-size: 130%;
-        padding: 3% 3% 0;
-    }
-     */
-
     /* Cropped image replaces original so that hero text does not overlay with fingers - for high contrast */
     .hero-image {
         background: url(../images/hero-image-cropped3.jpg) no-repeat center center;
@@ -457,7 +405,6 @@ p {
     /* Reduces white space between services and hero image for improved layout at larger screen size*/
     .services div {
         padding-top: 0%;
-        /* width: 33%; */
     }
 
     /*  Set containers into a row for improved layout at larger screen size */
@@ -523,11 +470,6 @@ p {
         padding-top: 2%;
     }
 
-    /* .section-wrapper-resources > p {
-        padding: 0;
-        margin: 1%;
-    }  */
-
     /*  Allows video resizing for larger screen */
     /* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     .video-container {
@@ -538,17 +480,6 @@ p {
         position: relative;
         margin-inline: 50px;
         width: 90%;
-    }
-
-    .resource-video {
-        /* align-items: center; */
-        /* bottom: 0;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 100%; */
     }
 
     /*  Reduces spacing around resources list for larger screen viewing */
@@ -568,7 +499,7 @@ p {
         margin-inline: auto;
     }
 
-    /*  Changes 2 parts to contact-us section to dsiplay as a row for larger screen  */
+    /*  Changes the two sections witin contact-us section to dsiplay as a row for larger screen  */
     .contact-us {
         /* background-color: white;
         display: flex; */

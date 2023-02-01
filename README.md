@@ -9,7 +9,7 @@ SMARA Cancer Support Group is a site that provides an basic overview of the canc
 ---
 ## TABLE OF CONTENTS
 
-1. [Introduction](#INTRODUCTION)
+1. [Introduction](#introduction)
 2. [User Experiences](#user-experiences)
     1. [User Stories](#user-stories)
 3. [Design](#design)
@@ -75,23 +75,23 @@ In addition, you may also use this section to discuss plans for additional featu
 
 #### 1. Header and Navigation Bar
 
-	The site name, cancer ribbon, and navigation bar are present and consistent at the top of all four site pages.
+The site name, cancer ribbon, and navigation bar are present and consistent at the top of all four site pages.
 
-    The cancer ribbon next to the group name quickly and easily identifies the page as relating to cancer, re-inforcing the reason the user visits the page.
+The cancer ribbon next to the group name quickly and easily identifies the page as relating to cancer, re-inforcing the reason the user visits the page.
 
-    The group name is simple and clear, making it easy for the user to identify the overall purpose of the site when on each page
+The group name is simple and clear, making it easy for the user to identify the overall purpose of the site when on each page
 
-    The navigation menu provides links to each of the four site pages, it clearly indicates which page the user is currently on, and allows the user to easily navigate around the site at all times without having to leave the page space
+The navigation menu provides links to each of the four site pages, it clearly indicates which page the user is currently on, and allows the user to easily navigate around the site at all times without having to leave the page space
 
 #### 2. Hero Image
 
-    The hero image was selected as this shows a number of hands reaching for assistance, indicating the site's purpose (to provide assistance and support), incorporating the colours selected for the site design (increasing familiarity and trust in the site), along with the hands reflecting the multi-cultural potential user base of the group.  
+The hero image was selected as this shows a number of hands reaching for assistance, indicating the site's purpose (to provide assistance and support), incorporating the colours selected for the site design (increasing familiarity and trust in the site), along with the hands reflecting the multi-cultural potential user base of the group.  
 
-    The text overlay on the hero image lets the user know what the basic aims of the group are and defines the catchment area for the group's users.
+The text overlay on the hero image lets the user know what the basic aims of the group are and defines the catchment area for the group's users.
 
 #### 3. Services Section
 
-    This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for and how it each could benefit the visitor.
+This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for and how it each could benefit the visitor.
 
 #### 4. Footer
 
@@ -99,33 +99,33 @@ The footer is present at the bottom of each of the four site pages.  It has icon
 
 #### 5. About Page
 
-	The about page is split into two sections:
+The about page is split into two sections:
     
-    a.  Who are we
-        This section explains who set up the group, and who is involved in running it.  This helps the user to understand that the group is run by local people (engendering trust) and also shows that both lay people and professionals help to run it (demonstrating that the user can find both peer and professional support from the group).  A picture of some of the group volunteers <!--imaginary group members??-->, photographed in the medical facility lobby, is included, as this helps the user to visualise the group members, and understand that they appear both local (i.e. not an international organisation) and approachable looking.
+a.  Who are we
+ This section explains who set up the group, and who is involved in running it.  This helps the user to understand that the group is run by local people (engendering trust) and also shows that both lay people and professionals help to run it (demonstrating that the user can find both peer and professional support from the group).  A picture of some of the group volunteers <!--imaginary group members??-->, photographed in the medical facility lobby, is included, as this helps the user to visualise the group members, and understand that they appear both local (i.e. not an international organisation) and approachable looking.
 
-    b. Who we serve
-        This section clearly explains the catchment area for the groups users.  It defines where the group is based (i.e. a local medical facility), giving the group credibility.  It also offers advice to page visitors who reside outside of the catchment area on alternate places to seek assistance, meaning the page is of use to a visitor even if they do not fall into the relevant catchment area. A hyperlink is included to the reccomended alterante site, to assit the user to find the help they need without having to leave the site. A hyperlink is added to the medical facility mentioned within the text to allow the user to visit the centres website, opening in a new page, meaning the user does not have to leave the site to find out more about the medical centre.  A map is included in this section, showing the location of the SMARA offices (at the medical centre), allowing the user to easily visualise where on-site services are based. 
+b. Who we serve
+This section clearly explains the catchment area for the groups users.  It defines where the group is based (i.e. a local medical facility), giving the group credibility.  It also offers advice to page visitors who reside outside of the catchment area on alternate places to seek assistance, meaning the page is of use to a visitor even if they do not fall into the relevant catchment area. A hyperlink is included to the reccomended alterante site, to assit the user to find the help they need without having to leave the site. A hyperlink is added to the medical facility mentioned within the text to allow the user to visit the centres website, opening in a new page, meaning the user does not have to leave the site to find out more about the medical centre.  A map is included in this section, showing the location of the SMARA offices (at the medical centre), allowing the user to easily visualise where on-site services are based. 
       
 #### 6. Resources Page
        
-    The resources page has two sections:
+The resources page has two sections:
 
-    a. Video
-        A short video explaining what patient navigation is is embedded on first section of this page.  This allows the user to quickly explore the value of patient navigation services, as this concept is often not well understood by new patients.
+a. Video
+A short video explaining what patient navigation is is embedded on first section of this page.  This allows the user to quickly explore the value of patient navigation services, as this concept is often not well understood by new patients.
 
-    b. Links to useful resources
-        The second section provides a number of links to useful resources, along with a written description of why each link is considered useful.  This will aid the user by providing trusted sources for further cancer information, and also helps to establish the trustworthiness of the site (as the resources referenced are all from national or internationally recognised sites).
+b. Links to useful resources
+The second section provides a number of links to useful resources, along with a written description of why each link is considered useful.  This will aid the user by providing trusted sources for further cancer information, and also helps to establish the trustworthiness of the site (as the resources referenced are all from national or internationally recognised sites).
 
 #### 7. Contact Page
 	
-    The contact page has two sections:
+The contact page has two sections:
     
-    a. Request Contact section
-        This section contains a form the user can fill out to request a member of the group contact them for further information.  The inclusion of the last name is optional, which is of benefit to the user as they may not feel confident on first contact to provide their full name (increasing trust in the group and the site).  The user can enter either email or a phone number as they prefer - this gives the user the confidence to select the contact method they feel most comfortable with. The phone number section is limited to 16 characters, to minimise entry of an incorrect number, whilst also allowing for data entry in the full international dialing code format.  Radio button options at the end of the form allow the user to indicate which service they may be interested in exploring, which will help the group member making contact to be well prepared for the first contact encounter with the user and to help make the ensuing contact more relevant.
+a. Request Contact section
+This section contains a form the user can fill out to request a member of the group contact them for further information.  The inclusion of the last name is optional, which is of benefit to the user as they may not feel confident on first contact to provide their full name (increasing trust in the group and the site).  The user can enter either email or a phone number as they prefer - this gives the user the confidence to select the contact method they feel most comfortable with. The phone number section is limited to 16 characters, to minimise entry of an incorrect number, whilst also allowing for data entry in the full international dialing code format.  Radio button options at the end of the form allow the user to indicate which service they may be interested in exploring, which will help the group member making contact to be well prepared for the first contact encounter with the user and to help make the ensuing contact more relevant.
     
-    b. Contact Us section
-        This section provides the user with a contact name, email and phone number for the group.  This provides transparency for the user, and allows the user to make contact directly if they feel more comfortable with this.  A map is also included showing the location of the group's main office (at the medical clinic), allowing the user to know where the group is located.
+b. Contact Us section
+This section provides the user with a contact name, email and phone number for the group.  This provides transparency for the user, and allows the user to make contact directly if they feel more comfortable with this.  A map is also included showing the location of the group's main office (at the medical clinic), allowing the user to know where the group is located.
 
 ### Future Features
 
