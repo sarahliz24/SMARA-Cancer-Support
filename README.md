@@ -145,32 +145,57 @@ This section provides the user with a contact name, email and phone number for t
 
 ## Validator Testing
 
-The code was regualrly tested using w3 validators for HTML and CSS throughout development, using these links: [W3C HTML Validator](https://validator.w3.org/#validate_by_input); [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ ) . 
 
-HTML Final testing results:
+The code was regualrly tested using w3 validators for HTML and CSS throughout development, using these links:
+[W3C HTML Validator](https://validator.w3.org/#validate_by_input); [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ )
+
+
+### HTML Final testing results:
+
 
 <details><summary>Home Page</summary>
     <img src="documentation/home-page-html-checker.png">
 </details>
 
 <details><summary>About Page</summary>
-    <img src="">
+    <img src="documentation/about-page-html-checker.png">
 </details>
 
 <details><summary>Resources Page</summary>
-    <img src="">
+    <img src="documentation/resources-page-html-checker.png">
 </details>
 
 <details><summary>Contact Page</summary>
-    <img src="">
+    <img src="documentation/contact-page-html-checker.png">
 </details>
 
-<!--display testing results here-->
+
+### CSS Final testing results:
+
+<details><summary>CSS Validation</summary>
+    <img src="documentation/css-validation.png">
+</details>
+
 
 Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.  
 
-Final testing results:
-<!--display testing results here-->
+
+<details><summary>Home Page</summary>
+    <img src="documentation/home-lighthouse.png">
+</details>
+
+<details><summary>About Page</summary>
+    <img src="documentation/about-lighthouse.png">
+</details>
+
+<details><summary>Resources Page</summary>
+    <img src="documentation/resources-lighthouse.png">
+</details>
+
+<details><summary>Contact Page</summary>
+    <img src="documentation/contact-lighthouse.png">
+</details>
+
 
 Accessability testing was performed regularly throughout development using WAVE testing for accessability https://wave.webaim.org/ 
 
