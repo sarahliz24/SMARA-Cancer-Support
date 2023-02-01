@@ -69,7 +69,7 @@ p {
 }
 
 .active {
-    color: #8b1933;
+    font-weight: 900;
     text-decoration: none;
 }
 
@@ -518,7 +518,7 @@ p {
         flex-direction: column;
     }
 
- /*  Reduces spacing around resources section, above video, for larger screen viewing */
+    /*  Reduces spacing around resources section, above video, for larger screen viewing */
     .section-wrapper-resources .text-block {
         padding-top: 2%;
     }
