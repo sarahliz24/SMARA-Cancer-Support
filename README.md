@@ -1,5 +1,6 @@
 # SMARA Cancer Support Group
 ---
+<!-- code to make layout demo from https://ui.dev/amiresponsive -->
 <img src="documentation/responsive-layout-demo.png">
 
 Site link: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cancer-Support/)
@@ -35,15 +36,12 @@ Site link: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cance
     1. [Code Used](#code-used)
     2. [Content](#content)
     3. [Technologies Used](#technologies-used)
-    4. [Media]
-11. [Acknowledgements]
- 
-
+    4. [Media](#media)
+11. [Acknowledgements](#acknowledgements)
 
 # INTRODUCTION
 
-SMARA Cancer Support Group is a site that provides an basic overview of the cancer support group's services.  Currently the site operates from a Facebook page (with a limited Instragram profile in addition), and this site is intended to help increase the groups visibility to potential users.  The site is aimed at people searching for cancer support services in South Trinidad, and will allow them to see what supports and activites the group offers to them, providing links to the groups active social media pages, and providing a method for people to get in touch with the group to engage with its services. As the groups resources grow it is envisaged that the site can be expanded to include more detailed information on the groups activities., such as fundraising activities, upcoming events, and provide an online method to contribute donations to help fund the group's activities.
-
+SMARA Cancer Support Group is a concept site that provides an basic overview of the SMARA cancer support group's services.  Currently the site operates from a Facebook page (with a limited Instragram profile in addition), and this site is intended to provide a website separate to social media, to help increase the groups visibility and legitimacy for potential users.  The site is aimed at people searching for cancer support services in South Trinidad, and will allow them to see what supports and activites the group offers to them, providing links to the groups active social media pages, and providing a method for people to get in touch with the group to engage with its services. As the groups resources grow it is envisaged that the site can be expanded to include more detailed information on the groups activities, such as fundraising activities, upcoming events, and provide an online method to contribute donations to help fund the group's activities.
 
 # USER EXPERIENCE
 
@@ -79,15 +77,16 @@ As a returning user I expect:
 # DESIGN
 
 ## Colour scheme
-The colour scheme is inspired by the colours on the Trinidad & Tobago flag - red, white and black (with the use of grey as an additional feature).  This was intended to give the site a local feel that would be familiar to its users and help inspire trust.  The main feature colour used (#8b1933) was taken from the hero image in order to create a cohesive feel across the site.
+The colour scheme is inspired by the colours of the Trinidad & Tobago flag - red, white and black (with the use of grey as an additional feature).  This was intended to give the site a local feel that would be familiar to its users and help inspire trust.  The main feature colour used (#8b1933) was taken from the hero image in order to create a cohesive feel across the site.
 
 ## Typograhy
 Open Sans was selected as the primary font for headings as it is clear and easily legible - this is aided by its sans serif type.  It is important for this site to have an easily readable font as many of its user base may have trouble with literacy, therefore it was important to avoid a complicated font that could make understanding the text more difficult. Montserrat was chosen as the body text as this is also a clear and easily readable font, which pairs well with Open Sans (for cohesiveness), with a secondary default font of Arial - as this is a commonly available font which is also very legible.
 
 ## Wireframes
 
-discuss any significant differences to final design?
+Wireframes for the project are below.  The only significant change to the wireframes compared with the final design is the removal of the events page, as this was outside the scope of the intial site owner goals (and is now included in future development features).
 
+<!--code for disclosire widgets is from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details -->
  <details><summary>Home Page</summary>
     <img src="documentation/wireframe-home.png">
 </details>
@@ -107,11 +106,6 @@ discuss any significant differences to final design?
 ---
 
 # FEATURES
-<!-- (In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user,focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things). 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:-->
 
 ## 1. Header and Navigation Bar
 
@@ -123,9 +117,9 @@ The site name, cancer ribbon, and navigation bar are present and consistent at t
 
 The cancer ribbon next to the group name quickly and easily identifies the page as relating to cancer, re-inforcing the reason the user visits the page.
 
-The group name is simple and clear, making it easy for the user to identify the overall purpose of the site when on each page
+The group name is simple and clear, making it easy for the user to identify the overall purpose of the site when on each page.
 
-The navigation menu provides links to each of the four site pages, it clearly indicates which page the user is currently on, and allows the user to easily navigate around the site at all times without having to leave the page space
+The navigation menu provides links to each of the four site pages. It clearly indicates which page the user is currently on, what each page is about, and allows the user to easily navigate around the site at all times without having to leave the page space. The navigation link is bold, with underlining removed, to clearly display to the user which page is currently active.
 
 ## 2. Hero Image
 
@@ -133,9 +127,9 @@ The navigation menu provides links to each of the four site pages, it clearly in
     <img src="documentation/hero-image-readme.png">
 </details>
 
-The hero image was selected as this shows a number of hands reaching for assistance, indicating the site's purpose (to provide assistance and support), incorporating the colours selected for the site design (increasing familiarity and trust in the site), along with the hands reflecting the multi-cultural potential user base of the group.  
+The hero image was selected as this shows a number of hands reaching for assistance, indicative of the site's purpose (to provide assistance and support). It incorporates the colours selected for the site design (increasing familiarity and trust in the site), and the hands in the image are reflective of the multi-cultural user base of the group.
 
-The text overlay on the hero image lets the user know what the basic aims of the group are and defines the catchment area for the group's users.
+The text overlay on the hero image lets the user know what the basic aims of the group are, and defines the catchment area for the group's users.
 
 ## 3. Services Section
 
@@ -143,7 +137,7 @@ The text overlay on the hero image lets the user know what the basic aims of the
     <img src="documentation/services-section-readme.png">
 </details>
 
-This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for and how it each could benefit the visitor.
+This section breaks down the basic services of the group into three categories (Patient Navigation, Financial Assistance, Counselling), explaining in simple terms what each function of the group is for, and how it each could benefit the visitor.  Relevant icons under each heading help to reinforce the aim of each section.
 
 ## 4. Footer
 
@@ -151,25 +145,25 @@ This section breaks down the basic services of the group into three categories (
     <img src="documentation/footer-readme.png">
 </details>
 
-The footer is present at the bottom of each of the four site pages.  It has icon-based links for the two social media sites that are active for the group, so that the user is aware of what social media sites are active for the group (and they can visit these and follow the sites to stay connected or get up-to-date information on group events etc), and also a link to the medical centre where the group's services are based, so the user can see the group is aligned to an established medical facility (helping to engender trust in the site).
+The footer is present at the bottom of each of the four site pages.  It has icon-based links for the two social media sites that are active for the group, so that the user is aware of what social media sites are in use for the group.  The user can visit these linked sites and follow the sites to stay connected or get up-to-date information on group events.  There is also a link to the medical centre where the group's services are based, so the user can see the group is aligned to an established medical facility (helping to engender trust in the site, and reinforce the groups location).  Hover text is added to each icon to make it clear before selecting the icon what it's purpose is to the user.  On mouse hover, each icon changes colour, to make it clear which icon is about to be selected.
 
 ## 5. About Page
 
 The about page is split into two sections:
-    
-a.  Who are we
- This section explains who set up the group, and who is involved in running it.  This helps the user to understand that the group is run by local people (engendering trust) and also shows that both lay people and professionals help to run it (demonstrating that the user can find both peer and professional support from the group).  A picture of some of the group volunteers <!--imaginary group members??-->, photographed in the medical facility lobby, is included, as this helps the user to visualise the group members, and understand that they appear both local (i.e. not an international organisation) and approachable looking.
 
 <details><summary>About - Who we are</summary>
     <img src="documentation/about-whoweare-readme.png">
 </details>
 
-b. Who we serve
-This section clearly explains the catchment area for the groups users.  It defines where the group is based (i.e. a local medical facility), giving the group credibility.  It also offers advice to page visitors who reside outside of the catchment area on alternate places to seek assistance, meaning the page is of use to a visitor even if they do not fall into the relevant catchment area. A hyperlink is included to the reccomended alterante site, to assit the user to find the help they need without having to leave the site. A hyperlink is added to the medical facility mentioned within the text to allow the user to visit the centres website, opening in a new page, meaning the user does not have to leave the site to find out more about the medical centre.  A map is included in this section, showing the location of the SMARA offices (at the medical centre), allowing the user to easily visualise where on-site services are based. 
+### Who are we
+ This section explains who set up the group, and who is involved in running it.  This helps the user to understand that the group is run by local people (engendering trust) and also shows that both lay people and professionals help to run it (demonstrating that the user can find both peer and professional support from the group).  A stock image intended to show some of the group volunteers, photographed in the medical facility lobby, is included.  This helps the user to visualise the group members, and understand that they are local (i.e. not an international organisation), approachable and professional. This image would be replaced with an image of actual group members if the site were to go live.
 
  <details><summary>About - Who we serve</summary>
     <img src="documentation/about-whereweserve-readme.png">
 </details>
+
+### Who do we serve
+This section clearly explains the catchment area for the groups users.  It defines where the group is based (i.e. a local medical facility), giving the group credibility.  It also offers advice to visitors who reside outside of the catchment area on alternate places to seek assistance, meaning the page is of use to a visitor even if they do not fall into the relevant catchment area. A hyperlink is included to the recommended alternate site, to assist the user to find the help they need without having to leave the site. A hyperlink is added to the medical facility mentioned within the text to allow the user to visit the medical centre website, opening in a new page (meaning the user does not have to leave the site to find out more about the medical centre).  A map is included in this section, showing the location of the SMARA offices (at the medical centre), allowing the user to easily visualise where on-site services are based. 
 
 ## 6. Resources Page
        
@@ -179,14 +173,14 @@ The resources page has two sections:
     <img src="documentation/resources-ptnav-readme.png">
 </details> 
 
-a. Video
+### Video
 A short video explaining what patient navigation is is embedded on first section of this page.  This allows the user to quickly explore the value of patient navigation services, as this concept is often not well understood by new patients.
 
 <details><summary>Resources</summary>
-    <img src="">
+    <img src="documentation/resources-we-recommend-readmepng.png">
 </details>
 
-b. Links to useful resources
+### Other resources we recommend
 The second section provides a number of links to useful resources, along with a written description of why each link is considered useful.  This will aid the user by providing trusted sources for further cancer information, and also helps to establish the trustworthiness of the site (as the resources referenced are all from national or internationally recognised sites).
 
 ## 7. Contact Page
@@ -197,24 +191,24 @@ The contact page has two sections:
     <img src="documentation/requestcontact-readme.png">
 </details>  
 
-a. Request Contact section
-This section contains a form the user can fill out to request a member of the group contact them for further information.  The inclusion of the last name is optional, which is of benefit to the user as they may not feel confident on first contact to provide their full name (increasing trust in the group and the site).  The user can enter either email or a phone number as they prefer - this gives the user the confidence to select the contact method they feel most comfortable with. The phone number section is limited to 16 characters, to minimise entry of an incorrect number, whilst also allowing for data entry in the full international dialing code format.  Radio button options at the end of the form allow the user to indicate which service they may be interested in exploring, which will help the group member making contact to be well prepared for the first contact encounter with the user and to help make the ensuing contact more relevant.
+### Request Contact
+This section contains a form the user can fill out, to request a member of the group contact them for further information.  The inclusion of the last name is optional, which is of benefit to the user as they may not feel confident on first contact to provide their full name (increasing trust in the group and the site). The phone number section is limited to 16 characters, to minimise risk entry of an incorrect number, whilst also allowing for data entry in the full international dialing code format.  Radio button options at the end of the form allow the user to indicate which service they may be interested in exploring, which will help the person making contact with them to be well prepared for the first contact encounter with the user, helping to make the ensuing contact more relevant. Only one radio button can be selected.  The submit button changes colour (background and text) on mouse hover, to make it clear it is being selected.
 
 <details><summary>Contact Us</summary>
     <img src="documentation/contactus-readme.png">
 </details>
 
-b. Contact Us section
+### Contact Us
 This section provides the user with a contact name, email and phone number for the group.  This provides transparency for the user, and allows the user to make contact directly if they feel more comfortable with this.  A map is also included showing the location of the group's main office (at the medical clinic), allowing the user to know where the group is located.
 
 ## Future Features
 
-1. Donate button - addition of a donate feature to help increase group funds
+### Donate button
+* Addition of a donate feature to help increase group funds.  This would be a 'donate' button added to the header section that would take the user to a secure online payment area to make a donation.
 
-2. Addition of an Up to date events page - currently events are communicated to users via the group's facebook page.  If the static site is successful, the addition of a page that would show both past and upcoming events would benefit the user as they could see how they could become involved in the group's activities without directly accessing the primary services (as detailed on the landing page).  It would also benefit the group as it would increase the visibility of upcoming events, and encourage visitors to donate towards events they are interested in.
+* Addition of an 'events' page. Currently events are communicated to users via the group's facebook page.  If the static site is successful, the addition of a page that would show both past and upcoming events would benefit the user as they could see how they could become involved in the group's activities without directly accessing the primary services (as detailed on the landing page).  It would also benefit the group as it would increase the visibility of upcoming events, and encourage visitors to donate towards events they are interested in.
 
-3. Information page for volunteers
-
+* Addition of an information page for volunteers, explaining how to get involved in the group and what types of volunteer opportunities are available.  This would help to increase the volunteer base of the group.
 
 # Testing
 
@@ -222,7 +216,6 @@ This section provides the user with a contact name, email and phone number for t
 
 The code was regularly tested using w3c validators for HTML and CSS throughout development, using these links:
 [W3C HTML Validator](https://validator.w3.org/#validate_by_input); [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ )
-
 
 ### HTML final testing results:
 
@@ -248,12 +241,11 @@ The code was regularly tested using w3c validators for HTML and CSS throughout d
     <img src="documentation/css-validation.png">
 </details>
  
-
 ## Lighthouse testing
+
 Lighthouse testing was conducted at regular intervals during development, using the Lighthouse function inbuilt into the Chrome Inspector tool.
 
-### Lighthouse  final testing results:
-
+### Lighthouse final testing results:
 
 <details><summary>Home Page</summary>
     <img src="documentation/home-lighthouse.png">
@@ -273,11 +265,11 @@ Lighthouse testing was conducted at regular intervals during development, using 
 
 ## Accessibility testing
 
-*Accessibility testing was performed regularly throughout development using WAVE Web Accessibility Evaluation Tools, using this link: [WAVE Testing](https://wave.webaim.org/)
+Accessibility testing was performed regularly throughout development utilising 'WAVE Web Accessibility Evaluation Tools', using this link: [WAVE Testing](https://wave.webaim.org/)
 
-    *This testing provided assistance on ensuring relevant issues were identified and resolved during development:
-        *It was found that the hands on the hero image were overlapping the hero text in some formats, causing a small area of low contrast for the hero text. To resolve this the positioning of the text was amended, along with a re-positioning of the hero image, and amending the overall image brightness
-        *It highlighted the need for a fieldset and legend to be added to the radio button section to increase accessibility for users
+This testing provided assistance on ensuring relevant issues were identified and resolved during development:
+* It was found that the hands on the hero image were overlapping the hero text in some formats, causing a small area of low contrast for the hero text. To resolve this the positioning of the text was amended, along with a re-positioning of the hero image, and amending the overall image brightness.
+* It highlighted the need for a fieldset and legend to be added to the radio button section to increase accessibility for users.
  
  <details><summary>Home Page</summary>
     <img src="documentation/home-wavetest.png">
@@ -295,8 +287,7 @@ Lighthouse testing was conducted at regular intervals during development, using 
     <img src="documentation/contact-wavetesting.png">
 </details>
 
-
-### Browser Compatability Testing
+### Browser Compatibility Testing
 
 The site was successfully tested (i.e. no issues identified) on the following broswers to ensure intended functionality:
 
@@ -328,14 +319,14 @@ The following features were manually tested on all mentioned browsers and device
     * Each footer icons changes colour (to red) with a mouse hover 
 
 * Home page
-    * The Services section changes from row to column format responsively
+    * The Services section changes from row to column format responsively in relation to changing screen size
 
 * About page
     * Both links in the 'Who Do We Serve' section takes user to the expected page (opening in a new browser window)
     * The map opens to a full size map (in a new browser window) when option is selected
     * The map zoom function operates as expected
-    * The Services section changes from row to column responsively
-    * Both page sections ('Who We Are' and 'Who Do We Serve') change from row to column format responsively
+    * The Services section changes from row to column responsively in relation to changing screen size
+    * Both page sections ('Who We Are' and 'Who Do We Serve') change from row to column format responsively in relation to changing screen size
 
 * Resources page
     * The video does not autoplay
@@ -352,31 +343,33 @@ The following features were manually tested on all mentioned browsers and device
     * Form submission upon selecting 'Submit' button is successful (taking user to Code Institute form-dump page)
     * The map opens to a full size map (in a new browser window) when option is selected
     * The map zoom function operates as expected
-    * The page sections change from row to column responsively
+    * The page sections change from row to column responsively in relation to changing screen size
 
-<!--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.-->
+Responsiveness was specifically tested during development, and at final testing, using Chrome and Firefox development responsive tools with a wide variety of screen sizes, and also on the previously mentioned devices. 
 
 ## Accessibility
--aria labels, any other accessibility issues considered or needed to implement?
+* Alt text and an aria label is added to the group image
+* Aria labels are added to all links and functional icons
+* Aria-hidden labels are added to all decorative icons
+* Contrast was tested during development, and adjustments made to the hero image and overlay text to ensure high contrast for accessibility purposes was achieved
 
 # BUGS
 
 ## Known bugs
-- Footer not fixed - issue with division between footer and map section
-- Ipad size - issue with blank space at bottom of services section in portrait mode
-- T&T Cancer Society link slow to load
-- console check warnings noted during 'inspector console' checks - related to fontawesome, and embedded maps and video and github- beyond the scope of this project to address these issues, however not noted to be impacting basic functionality of site  (some warnings only on Firefox - mention this a bit more...)
+* It was noted during responsiveness testing (using Firefox 109.0.1 64-bit Inspector tools) that for some ipad sizes in portrait mode, a blank space is seen below the footer.  This was not able to be consistently recreated, and on discussion with my mentor, it was felt this may be an issue with the firefox tool rather than the website design.
+* The T&T Cancer Society link is very slow to load compared to the other links.  This may be related to the server location for this site (in Trinidad & Tobago).  The site does consistently and successfully load however.
+* Console warnings were noted in both Chrome and Firefox during checks using the inbuilt developer tools.  These are related to fontawesome, the embedded google maps and youtube video, and github.  These were discussed with my mentor - it was felt it is beyond the scope of this project to address these issues currently, however they are not noted to be impacting on the basic functionality of site.  It is possible that they are related to the installation (or lack of installation) of certain extensions.
 
 ## Solved bugs
-- footer jumping to middle of page for small screens - media query was set to relative position for this screen size - remmoved this, bug fixed
-- contast issue with hero text
-- During manual testing it was noted that the video was not evenly aligned left-right on large screens - this was corrected by removing the width element from the video container, then amending the margin size
+* The footer was jumping to the middle of the page for small screens - it was found that a media query was set to 'relative position' for this screen size; removing the query corrected the issue.
+* WAVE testing highlighted a contast issue between the hero image and the overlaid text (where the text was touching a finder in the image, causing an area of low contrast).  The text overlay position was adjusted responsively to ensure it's position was not overlaying the finger at any screen size, and the hero image brightness was decreased by 5% to ensure that when the text did overlay the finger the contrast was still suitably high. 
+* During manual testing it was noted that the video was not evenly aligned left-right on large screens - this was corrected by removing the width element from the video container, then amending the margin size for the video container.
 
 ---
 
 # Deployment
 
-This site was delpoyed using Github as follows:
+This site was deployed using Github as follows:
 
 1. Enter the relevant Github repository
 2. Select **Settings** from the ribbon menu
@@ -388,24 +381,22 @@ This site was delpoyed using Github as follows:
 7. Site link will be displayed in a box towards the top of the page 
     * It can take a few minutes on initial deployment for the link to display
 
-    The site github link is here: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cancer-Support/)
+The site github link is here: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cancer-Support/)
 ---
 
 # CREDITS
 
 ## Code used
-	- code for iframe taken from: https://blog.duda.co/responsive-google-maps-for-your-website
-	 - code for sticky footer taken from: https://css-tricks.com/couple-takes-sticky-footer/ (option one used) - 25/1 - code removed
-     - fixed footer code from https://www.w3schools.com/howto/howto_css_fixed_footer.asp 22/1/23
-	- how to add video via youtube https://www.w3schools.com/html/html_youtube.asp
-   - how to change image brightness https://www.tutorialspoint.com/setting-the-image-brightness-using-css3
-   - how to add hover text on footer icons https://sebhastian.com/html-hover-text/ 
-    - for reponsive design mega picture https://ui.dev/amiresponsive
+* Code for iframe map taken from https://blog.duda.co/responsive-google-maps-for-your-website
+* Code for how to change image brightness is from https://www.tutorialspoint.com/setting-the-image-brightness-using-css3
+* Code for how to add hover text on footer icons was sourced from https://sebhastian.com/html-hover-text/
+* Code for the reponsive design layout picture is from https://ui.dev/amiresponsive
+* Code to controls size & postion of video on larger screen - from w3schools https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
+* Code to set size & position of image at larger screen size for improved layout  https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional
+* Code for readme disclosure widgets is from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
     
 ## Content
-eg content for this site was written by ME, some was taken from Facebook SMARA page
-?need to reference love running for aria labels and other footer set-up?
-content for about section taken from... ?Pat's CV?
+* Written content for this site was created by the site author, using information from Patricia Tikasingh's CV on https://cvmkr.com/PHbP, and the SMARA facebook page https://www.facebook.com/TheSMARACancerSupportGroup/
 	
 ## Technologies Used
 
@@ -413,19 +404,24 @@ During the creation of this site I used the following technologies:
 
 * Github
 * Google fonts
-* pexels
-* balsamiq
-* font awesome
+* Pexels
+* Balsamiq
+* Font awesome
 * Youtube
+* Google Maps
 
-## Media - list of images and links
+## Media
+
 * Images
-	* Hero image: from pexels.com, taken by Rocketmann_Team: pexels-rocketmann-team-9486905.jpg
-	* ABOUT IMAGE https://www.pexels.com/photo/group-of-women-standing-near-desk-1181438/
+	* Hero image - from pexels.com, taken by Rocketmann_Team: https://www.pexels.com/photo/man-arm-love-people-9486905/
+	* About page image - from pexels.com, taken by Christina Morillo: https://www.pexels.com/photo/group-of-women-standing-near-desk-1181438/
+
 * Video 
-    *  https://www.youtube.com/watch?v=FV_BE9hvg68 (creative commons re-use allowed)
+    * Patient navigator video - from Youtube, by Kaiser Permanente Thrive (creative commons re-use allowed):  https://www.youtube.com/watch?v=FV_BE9hvg68
+
 * Typography
     * Google fonts - Open Sans and Montserrat
+
 * Icons
     * Font Awesome 6.2.1
 
