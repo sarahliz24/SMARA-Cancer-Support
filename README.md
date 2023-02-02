@@ -1,15 +1,14 @@
 # SMARA Cancer Support Group
 ---
 <img src="documentation/responsive-layout-demo.png">
-<!-- Project images go here (web, tablet, mobile) -->	
 
-<!-- Link to deployed site-->	
+Site link: [SMARA Cancer Support Group](https://sarahliz24.github.io/SMARA-Cancer-Support/)
 
 ---
 # TABLE OF CONTENTS
 
 1. [Introduction](#introduction)
-2. [User Experiences](#user-experiences)
+2. [User Experience](#user-experience)
     1. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Colour Scheme](#colour-scheme)
@@ -46,25 +45,44 @@
 SMARA Cancer Support Group is a site that provides an basic overview of the cancer support group's services.  Currently the site operates from a Facebook page (with a limited Instragram profile in addition), and this site is intended to help increase the groups visibility to potential users.  The site is aimed at people searching for cancer support services in South Trinidad, and will allow them to see what supports and activites the group offers to them, providing links to the groups active social media pages, and providing a method for people to get in touch with the group to engage with its services. As the groups resources grow it is envisaged that the site can be expanded to include more detailed information on the groups activities., such as fundraising activities, upcoming events, and provide an online method to contribute donations to help fund the group's activities.
 
 
-# USER EXPERIENCES
+# USER EXPERIENCE
 
-## User Stories
+## Goals
 
-Shanna - newly diagnosed with cancer, doesn't understand the treatment pathway (feature of importance: patient navigation)
+### Site Owner Goals
 
-Ravi - referred for cancer treatment, however doesn't have money to pay for a taxi to get to treatment sessions (feature of importance: financial assistance)
+ As the site owner I expect:
+ * A site that introduces the existence of the Cancer Support Group to its audience
+ * A site that is easy to use and navigate around
+ * A site that presents clear and simple information about what services the group offers
+ * A site that inspires trust in the user
+ * A site that lets the user know who can access the groups services
+ * A site that lets the user know how to access the groups services
+ * A site that could be expanded in the future
 
-Kaloutie - finished cancer treatment, feeling unsure of what's next and how to cope without regular contact with medical professionals (feature of importance: counselling)
+## User Goals
 
+As a new user I expect:
+ * A site that explains how the group can help me in clear and simple terms
+ * A site that is easy to use and navigate around on a variety of devices
+ * A site that appears trustworthy
+ * A site that explains who can access the services on offer
+ * A site that offers a clear and easy way to contact the group to ask questions or engage with the services
+
+As a returning user I expect:
+ * A site that offers information about the background of the group and its members
+ * A site that offers trusted resources for futher related information
+ * A site that explains where the services are based if I want to engage with services in person
+ 
 ---
 
 # DESIGN
 
 ## Colour scheme
-The colour scheme is based on the Trinidad flag colours - red, white and black (with the use of grey as an additional feature).  This was chosen to give the site a local feel that would be familiar to its users and help inspire trust.
+The colour scheme is inspired by the colours on the Trinidad & Tobago flag - red, white and black (with the use of grey as an additional feature).  This was intended to give the site a local feel that would be familiar to its users and help inspire trust.  The main feature colour used (#8b1933) was taken from the hero image in order to create a cohesive feel across the site.
 
-## Typograhy <!--what fonts and why?--> 
-Open Sans was selected as the primary font for headings as it is clear and easily legible - this is aided by its sans serif type.  It is important for this site to have an easily readable font as many of its user base may have trouble with literacy and it was important to avoid the font used making understanding the text difficult to understand. Montserrat was chosen as the body text as this is also a clear and easily readable font, which pairs well with Open Sans (for cohesiveness) (as reccomended by www.figma.com/google-fonts/open-sans-font-pairings/), with a seconadary default text of Arial - as this is a commonly available font which is also very legible.
+## Typograhy
+Open Sans was selected as the primary font for headings as it is clear and easily legible - this is aided by its sans serif type.  It is important for this site to have an easily readable font as many of its user base may have trouble with literacy, therefore it was important to avoid a complicated font that could make understanding the text more difficult. Montserrat was chosen as the body text as this is also a clear and easily readable font, which pairs well with Open Sans (for cohesiveness), with a secondary default font of Arial - as this is a commonly available font which is also very legible.
 
 ## Wireframes
 
